@@ -26,3 +26,9 @@ function rowSumOddNumbers(n) {
   
   return result;
 }
+
+
+// Short solutions
+ function rowSumOddNumbersShort(n) {
+   return n*n*n;
+}
