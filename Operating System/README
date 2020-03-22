@@ -1,0 +1,6 @@
+Counter.bat is a batch file, which as a parameter receives the path to a text file, counts the number of characters, lines and words in a file and displays the result in the console. Operating System - Windows 10.
+	Example:
+	"C:\Counter.bat text.txt"
+DeterminantOfSet.bat is a batch file that receives a word as a parameter. The result of the work of the batch file is to display whether such an environment variable exists, if so, displays it in the console, if not, then displays the corresponding message to the console. Operating System - Windows 10.
+	Example:
+	"C:\DeterminantOfSet.bat windir"
