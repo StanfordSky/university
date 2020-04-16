@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <title>Планирование процессов</title>
+    <meta charset="utf-8">
+    <meta name="yandex-verification" content="392671cbe2d1b99d" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+    <script
+    type="text/javascript"
+    src="script.js"></script>
+
+  </head>
+  <body>
+
+  <section class="main">
+    <div class="header-text"><b>ОПЕРАЦИОННЫЕ СИСТЕМЫ</b><br>Лабораторная работа №5 <br><b>Диспетчеризация и планирование процессов и потоков</b></div>
+    <div class="input_algorithm">
+      <select class="form-control algorithm" onchange="menu_show()" >
+        <option disabled selected value>Выберите алгоритм</option>
+        <option value="RR">Round Robin</option>
+        <option value="Bilet">"Лотерейный билет"</option>
+      </select>
+      <select class="form-control select_form Count_process" id="exampleFormControlSelect1">
+        <option disabled selected value="0">Кол-во процессов</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+
+      </select>
+      <select class="form-control select_form Count_time" id="exampleFormControlSelect1">
+        <option disabled selected value="0">Макс. время выполнения</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+        <button type="button" class="btn__start btn btn-outline-success" title="Для запуска закрепите все поля выше" onclick="process()">Запуск</button>
+    </div>
+    <div class="work__place">
+      <div class="header">
+        <div class="PID">PID</div>
+        <div class="Priority Priority_head"></div>
+        <div class="Data TimeLeft">Duration</div>
+        <div class="Data TotalTime">Total Time</div>
+        <div class="Data LostTime">Lost Time</div>
+        <div class="Data Reactivity">Reactivity</div>
+        <div class="Data Fine">Fine</div>
+      </div>
+      <div class="works">
+        <div class="work work__1 active">
+            <div class="PID_itm work__1">1</div>
+            <div class="Priority1">1</div>
+            <div class="Process TimeLeft LT1">0</div>
+            <div class="Process TotalTime TT1">0</div>
+            <div class="Process LostTime LOST1">0</div>
+            <div class="Process Reactivity ReactV1">0</div>
+            <div class="Process Fine FN1">0</div>
+        </div>
+        <div class="work work__2 active">
+            <div class="PID_itm work__2 ">2</div>
+            <div class="Priority2">1</div>
+            <div class="Process TimeLeft LT2">0</div>
+            <div class="Process TotalTime TT2">0</div>
+            <div class="Process LostTime LOST2">0</div>
+            <div class="Process Reactivity ReactV2">0</div>
+            <div class="Process Fine FN2">0</div>
+        </div>
+        <div class="work work__3 active">
+            <div class="PID_itm work__3">3</div>
+            <div class="Priority3">1</div>
+            <div class="Process TimeLeft LT3">0</div>
+            <div class="Process TotalTime TT3">0</div>
+            <div class="Process LostTime LOST3">0</div>
+            <div class="Process Reactivity ReactV3">0</div>
+            <div class="Process Fine FN3">0</div>
+        </div>
+        <div class="work work__4 active">
+            <div class="PID_itm work__4">4</div>
+            <div class="Priority4">1</div>
+            <div class="Process TimeLeft LT4">0</div>
+            <div class="Process TotalTime TT4">0</div>
+            <div class="Process LostTime LOST4">0</div>
+            <div class="Process Reactivity ReactV4">0</div>
+            <div class="Process Fine FN4">0</div>
+        </div>
+        <div class="work work__5 active">
+            <div class="PID_itm work__5">5</div>
+            <div class="Priority5">1</div>
+            <div class="Process TimeLeft LT5">0</div>
+            <div class="Process TotalTime TT5">0</div>
+            <div class="Process LostTime LOST5">0</div>
+            <div class="Process Reactivity ReactV5">0</div>
+            <div class="Process Fine FN5">0</div>
+        </div>
+      </div>
+    </div>
+</section>
+
+  </body>
+</html>
