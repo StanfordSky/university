@@ -12,7 +12,6 @@ int getMax(int arr[], int n)
 	for (int i = 1; i < n; i++)
 		if (arr[i] > mx) {
 			mx = arr[i];
-			count_compare++;
 		}
 	return mx;
 }
@@ -26,13 +25,11 @@ void countSort(int arr[], int n, int exp)
 	// Количество вхождений в count
 	for (i = 0; i < n; i++) {
 		count[(arr[i] / exp) % 10]++;
-		count_compare++;
 	}
 
 	// Изменяем count[], чтобы он содержал актуальные позиции
 	for (i = 1; i < 10; i++) {
 		count[i] += count[i - 1];
-		count_compare++;
 	}
 
 	// Массив для вывода
@@ -74,8 +71,8 @@ void print(int arr[], int n)
 // Основная функция
 int main()
 {
-	//int arr[] = { 10, 7, 8, 9, 1, 5, 3, 12, 99, 56, 42, 77, 88, 31, 2, 45, 43, 95, 91 };
-	int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 11, 13, 14, 15, 16, 17, 18, 19, 20 };
+	int arr[] = { 10, 7, 8, 9, 1, 5, 3, 12, 99, 56, 42, 77, 88, 31, 2, 45, 43, 95, 91 };
+	//int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 11, 13, 14, 15, 16, 17, 18, 19, 20 };
 	int n = sizeof(arr) / sizeof(arr[0]);
 	radixsort(arr, n);
 	print(arr, n);

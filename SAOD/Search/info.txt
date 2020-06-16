@@ -1,0 +1,67 @@
+A:
+
+B:
+
+C:
+CPU
+
+D:
+
+E:
+
+F:
+
+G:
+
+H:
+Housing
+HDD
+
+I:
+
+J:
+
+K:
+
+L:
+
+M:
+Motherboard
+
+N:
+Network card
+
+O:
+Optical drive
+
+P:
+Power Supply
+
+Q:
+
+R:
+RAM
+
+S:
+Solid state drive
+Sound card
+
+T:
+
+U:
+
+V:
+Video card
+
+W:
+
+X:
+
+Y:
+
+Z:
+
+
+
+
+
