@@ -1,4 +1,17 @@
-﻿using System;
+﻿/*
+ Custom FTP client, implemented as laboratory report No. 12, subject "Computer Networks and Telecommunications".
+
+Implemented student of the group 18-PRI-rps-B - Lyadov Vyacheslav Serveevich
+
+Implemented functions:
+- Connection to FTP server;
+- Browse the catalog (LIST)
+- Individual task
+
+The program is implemented using socket technology
+*/
+
+using System;
 using System.Text;
 using System.IO;
 using System.Net;
@@ -11,8 +24,9 @@ namespace ConsoleApplication5
     {
         public class FtpClient
         {
-            public string ConnectionServer(string host) //method connectioin with server
+            public string ConnectionServer(string host)
             {
+                // Variables for Listening Socket
                 IPHostEntry hostEntry = Dns.GetHostEntry(host);
                 IPEndPoint ipe = null;
                 Socket Socket = null;
@@ -22,7 +36,7 @@ namespace ConsoleApplication5
                 int portpasv = 1;
                 try
                 {
-                    //Перебираем адреса Хоста и подключаемся
+                    //Parse addresses and connect
                     foreach (IPAddress address in hostEntry.AddressList)
                     {
                         ipe = new IPEndPoint(address, port);
@@ -41,13 +55,13 @@ namespace ConsoleApplication5
                         {
                             break;
                         }
-                        else if (message == "LIST\r\n") // Команда LIST
+                        else if (message == "LIST\r\n") // Command LIST
                         {
                             portpasv = PASV(ref Socket);
                             LIST(host, portpasv, ref Socket);                       
                             continue;
                         }
-                        else if (message == "LYADOVLIST\r\n") // Инд. Задание
+                        else if (message == "LYADOVLIST\r\n") // Commnd personal task
                         {
                             Console.Write("\nОписание индивидуального задания:\n\n" +
                          "Вариант 12 - Программа флудер: " +
@@ -93,6 +107,7 @@ namespace ConsoleApplication5
                 string portreceive = Response(ref Socket);
                 int one = 0, two = 0;
 
+                // We get data for computing the Port
                 try
                 {
                     one = Convert.ToInt32(portreceive.Split(',')[4]);
@@ -124,18 +139,20 @@ namespace ConsoleApplication5
                     dataSock = new Socket(ipe.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
                     dataSock.Connect(ipe);
                 }
-                message = "LIST\r\n";
 
+                message = "LIST\r\n";
                 Console.WriteLine("\nСодержимое директории:\n");
                 buffer = Encoding.ASCII.GetBytes(message);
                 socket.Send(buffer, buffer.Length, 0);
                 dataSockMsg = Response(ref dataSock);
                 string[] messageobj = dataSockMsg.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
+
                 foreach (string obj in messageobj)
                 {
                     retObj.Add(obj);
                     Console.WriteLine(" - : " + obj);
                 }
+
                 Console.WriteLine("\n");                  
                 dataSock.Close();
             }
@@ -168,7 +185,7 @@ namespace ConsoleApplication5
             {
                 try
                 {
-                    // буфер для ответа
+                    // Buffer for Response
                     StringBuilder builder = new StringBuilder();
                     int bytes = 0;
                     byte[] data = new byte[2048];
@@ -180,10 +197,12 @@ namespace ConsoleApplication5
                     while (temp.Available > 0);
                     return builder.ToString();
                 }
+
                 catch(Exception ex)
                 {
                     Console.WriteLine("Ошибка от сервера: " + ex.Message);
                 }
+
                 return "error";
             }
         }

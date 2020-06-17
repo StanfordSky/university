@@ -1,11 +1,22 @@
-﻿using System;
+﻿/*
+ Custom FTP client, implemented as laboratory report No. 12, subject "Computer Networks and Telecommunications".
+
+Implemented student of the group 18-PRI-rps-B - Lyadov Vyacheslav Serveevich
+
+Implemented functions:
+- Connection to FTP server;
+- Browse the catalog (LIST)
+- Individual task
+
+The program is implemented using FtpWebRequest, FtpWebResponse
+*/
+using System;
 using System.IO;
 using System.Net;
 using System.Text;
 
 class FtpClient
 {
-
     static string Host;
     static string UserName;
     static string Password;
@@ -16,7 +27,6 @@ class FtpClient
 
     static public void Main()
     {
-
         Console.WriteLine("Добро пожаловать в клиент Kremp для работы с FTP сервером.");
         Console.WriteLine("Информацию по командам FTP клиента - /help.");
         
@@ -70,18 +80,17 @@ class FtpClient
         
         ftpRequest = (FtpWebRequest)WebRequest.Create("ftp://" + Host + Path);
         ftpRequest.Credentials = new NetworkCredential(UserName, Password);
-
     }
 
     private static void ListDirectory()
     {
-        //команда фтп LIST
+        //Command LIST
         ftpRequest.Method = WebRequestMethods.Ftp.ListDirectoryDetails;
 
-        //Получаем входящий поток
+        //Receive Thread
         ftpResponse = (FtpWebResponse)ftpRequest.GetResponse();
 
-        //переменная для хранения всей полученной информации
+        //Buffer for Response from server
         string content = "";
 
         StreamReader sr = new StreamReader(ftpResponse.GetResponseStream(), System.Text.Encoding.ASCII);
@@ -117,12 +126,12 @@ class FtpClient
             fs.Close();
             request.ContentLength = fileContents.Length;
 
-            // пишем считанный в массив байтов файл в выходной поток
+            // file to output stream
             Stream requestStream = request.GetRequestStream();
             requestStream.Write(fileContents, 0, fileContents.Length);
             requestStream.Close();
 
-            // получаем ответ от сервера в виде объекта FtpWebResponse
+            // we get a response from the server as an FtpWebResponse object
             FtpWebResponse response = (FtpWebResponse)request.GetResponse();
             Console.WriteLine("Сервер: файл " + i + ".txt + загружен на сервер - " + response.StatusDescription);
 
