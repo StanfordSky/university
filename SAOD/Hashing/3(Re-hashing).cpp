@@ -3,11 +3,11 @@
 Laboratory work on the subject "Structures and Data Processing Algorithms", on the topic "Hashing"
 Implemented by a student of the group 18-PRI-RPS-B - Lyadov Vyacheslav Serveevich
 
-Задание
-	Напишите алгоритм и программу, использующую функции
-повторного хеширования, зависящую от числа раз повторного
-хеширования.Вывести на печать исходные данные, хеш - таблицу и
-количество сравнений при различных размерах хеш - таблицы
+The task:
+Write an algorithm and program that uses functions
+re-hashing, depending on the number of times re-hashing
+hashes. Print input data, hash - table and
+number of comparisons for different  sizes hashtables
 */
 
 #include <iostream>
