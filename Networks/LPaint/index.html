@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+            crossorigin="anonymous">
+
+        <link rel="stylesheet"
+             href="css\style.css">
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+            crossorigin="anonymous"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
+            crossorigin="anonymous"></script>
+
+        <script src="js\script.js"></script>
+
+        <title>LPaint</title>
+    </head>
+    <body>
+
+        <!--Container for align to center-->
+        <div class="container">
+
+            <!--Tool bar-->
+            <div class="tools"> 
+
+                <!--Section for input picture from buffer on toolbar-->
+                <div class="input__from__buffer section__tools">
+
+                </div>
+
+                <!--Section for edit picture on canvas-->
+                <div class="picture  section__tools">
+
+                </div>
+
+                <!--Section for choose tool from collection-->
+                <div class="tools  section__tools">
+                
+                </div>
+
+                <!--Section for choose figure or pen for drawing-->
+                <div class="tools  section__tools">
+                
+                </div>
+                
+                <!--Section for choose thickness-->
+                <div class="thickness  section__tools">
+
+                </div>
+
+                <!--Section for choose colors-->
+                <div class="color  section__tools">
+
+                </div>
+            </div>
+
+            <!--Main canvas-->
+            <canvas class="canvas" id="canvas" width="940px" height="600px"> 
+                  Ваш браузер не поддерживает Canvas
+            </canvas>
+
+        </div>
+        
+    </body>
+</html>
