@@ -28,7 +28,7 @@ button:focus {
 
 /* Toolbar */
 
-.tools {
+.toolsbar {
     height: 100px;
     width: 960px;
     border: 1px solid rgb(240, 240, 240);
@@ -39,10 +39,74 @@ button:focus {
     display: flex;
     justify-content: space-between;
     align-items: center; 
+
 }
 
-.section__tool{
-    
+.section__tools{
+   
+   width: 160px;
+   height: 100px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+   border: solid 1px rgba(185, 185, 185, 0.2);   
+   font-family: 'Pangolin', cursive;
+   font-size: 11px;
+}
+
+.input__from__buffer{
+    width: 100px;
+}
+
+.picture{
+    width: 220px;
+}
+
+.tools{
+    width: 100px;
+}
+
+.figure{
+    width: 220px;
+}
+
+.thickness{
+    width: 60px;
+}
+
+.colors{
+    width: 260px;
+}
+
+.functionality{
+    height: 80px;
+}
+
+.colors .functionality{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.color .functionality .row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.column{
+    border: 1px solid rgba(0,0,0,0.2);
+    margin: 2px;
+    width: 20px;
+    height: 20px;
+    transition: transform .2s linear;
+}
+
+.column:hover{
+    transform: scale(1.2);
 }
 
 
@@ -53,4 +117,50 @@ button:focus {
     
     -webkit-box-shadow: 5px 5px 5px 1px rgba(1,1,1,0.2);
     box-shadow: 5px 5px 5px 1px rgba(1,1,1,0.2);
+
+    border-radius: 1px;
+}
+
+/*  Info__bar */
+
+.info__bar{
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    width: 960px;
+
+    border: solid 1px rgba(185, 185, 185, 0.3);
+    background-color: rgb(245, 246, 247);
+
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Pangolin', cursive;
+    font-size: 14px;
+}
+
+.info__bar > div{
+    height: 30px;
+    width: 33.3%;
+    border: 1px solid rgba(0,0,0,0.2);
+
+}
+
+.current__color{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.current__color  div {
+    width: 50%;
+    height: 20px;
+    line-height: normal;
+    text-align: center;
+}
+
+.current__color__block{
+
+    background-color: black;
+    margin-right: 20px;
 }
