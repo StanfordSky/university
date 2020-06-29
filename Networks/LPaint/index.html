@@ -83,7 +83,11 @@
                 <!--Section for choose thickness-->
                 <div class="thickness  section__tools">
                     <div class="functionality">
-
+                        <div class="thickness_size thickness_size_one" onClick="SetWeigth(1)"></div>
+                        <div class="thickness_size thickness_size_two" onClick="SetWeigth(4)"></div>
+                        <div class="thickness_size thickness_size_three" onClick="SetWeigth(8)"></div>
+                        <div class="thickness_size thickness_size_four" onClick="SetWeigth(12)"></div>
+                        <input class="thickness_size_custom" id="thickness_size_custom" value="5" onBlur="SetCustomWeigth()"></input>
                     </div>
                     <div class="name__functionality">
                         Толщина
@@ -94,40 +98,40 @@
                 <div class="colors  section__tools">
                     <div class="functionality">
                         <div class="row">
-                            <div class="column" style="background-color: rgb(0,0,0)"></div>
-                            <div class="column" style="background-color: rgb(64,0,0)"></div>
-                            <div class="column" style="background-color: rgb(128,0,0)"></div>
-                            <div class="column" style="background-color: rgb(128,64,64)"></div>
-                            <div class="column" style="background-color: rgb(255,0,0)"></div>
-                            <div class="column" style="background-color: rgb(255,128,128)"></div>
-                            <div class="column" style="background-color: rgb(255,255,128)"></div>
-                            <div class="column" style="background-color: rgb(255,255,0)"></div>
-                            <div class="column" style="background-color: rgb(255,128,64)"></div>
-                            <div class="column" style="background-color: rgb(255,128,0)"></div>
+                            <div class="column" style="background-color: rgb(0,0,0)" onClick="SetColor(0,0,0)"></div>
+                            <div class="column" style="background-color: rgb(64,0,0)" onClick="SetColor(64,0,0)"></div>
+                            <div class="column" style="background-color: rgb(128,0,0)" onClick="SetColor(128,0,0)"></div>
+                            <div class="column" style="background-color: rgb(128,64,64)" onClick="SetColor(128,64,64)"></div>
+                            <div class="column" style="background-color: rgb(255,0,0)" onClick="SetColor(255,0,0)"></div>
+                            <div class="column" style="background-color: rgb(255,128,128)" onClick="SetColor(255,128,128)"></div>
+                            <div class="column" style="background-color: rgb(255,255,128)" onClick="SetColor(255,255,128)"></div>
+                            <div class="column" style="background-color: rgb(255,255,0)" onClick="SetColor(255,255,0)"></div>
+                            <div class="column" style="background-color: rgb(255,128,64)" onClick="SetColor(255,128,64)"></div>
+                            <div class="column" style="background-color: rgb(255,128,0)" onClick="SetColor(255,128,0)"></div>
                         </div>
                         <div class="row">
-                            <div class="column" style="background-color: rgb(128,64,0)"></div>
-                            <div class="column" style="background-color: rgb(128,128,0)"></div>
-                            <div class="column" style="background-color: rgb(128,128,64)"></div>
-                            <div class="column" style="background-color: rgb(0,64,0)"></div>
-                            <div class="column" style="background-color: rgb(0,128,0)"></div>
-                            <div class="column" style="background-color: rgb(0,255,0)"></div>
-                            <div class="column" style="background-color: rgb(128,255,0)"></div>
-                            <div class="column" style="background-color: rgb(0,255,128)"></div>
-                            <div class="column" style="background-color: rgb(128,255,255)"></div>
-                            <div class="column" style="background-color: rgb(0,64,128)"></div>
+                            <div class="column" style="background-color: rgb(128,64,0)" onClick="SetColor(128,64,0)"></div>
+                            <div class="column" style="background-color: rgb(128,128,0)" onClick="SetColor(128,128,0)"></div>
+                            <div class="column" style="background-color: rgb(128,128,64)" onClick="SetColor(128,128,64)"></div>
+                            <div class="column" style="background-color: rgb(0,64,0)" onClick="SetColor(0,64,0)"></div>
+                            <div class="column" style="background-color: rgb(0,128,0)" onClick="SetColor(0,128,0)"></div>
+                            <div class="column" style="background-color: rgb(0,255,0)" onClick="SetColor(0,255,0)"></div>
+                            <div class="column" style="background-color: rgb(128,255,0)" onClick="SetColor(128,255,0)"></div>
+                            <div class="column" style="background-color: rgb(0,255,128)" onClick="SetColor(0,255,128)"></div>
+                            <div class="column" style="background-color: rgb(128,255,255)" onClick="SetColor(128,255,255)"></div>
+                            <div class="column" style="background-color: rgb(0,64,128)" onClick="SetColor(0,64,128)"></div>
                         </div>
                         <div class="row">
-                            <div class="column" style="background-color: rgb(0,0,255)"></div>
-                            <div class="column" style="background-color: rgb(64,128,128)"></div>
-                            <div class="column" style="background-color: rgb(128,128,255)"></div>
-                            <div class="column" style="background-color: rgb(255,128,192)"></div>
-                            <div class="column" style="background-color: rgb(128,0,64)"></div>
-                            <div class="column" style="background-color: rgb(64,0,64)"></div>
-                            <div class="column" style="background-color: rgb(255,128,255)"></div>
-                            <div class="column" style="background-color: rgb(255,0,128)"></div>
-                            <div class="column" style="background-color: rgb(128,0,255)"></div>
-                            <div class="column" style="background-color: rgb(255,255,255)"></div>
+                            <div class="column" style="background-color: rgb(0,0,255)" onClick="SetColor(0,0,255)"></div>
+                            <div class="column" style="background-color: rgb(64,128,128)" onClick="SetColor(64,128,128)"></div>
+                            <div class="column" style="background-color: rgb(128,128,255)" onClick="SetColor(128,128,255)"></div>
+                            <div class="column" style="background-color: rgb(255,128,192)" onClick="SetColor(255,128,192)"></div>
+                            <div class="column" style="background-color: rgb(128,0,64)" onClick="SetColor(128,0,64)"></div>
+                            <div class="column" style="background-color: rgb(64,0,64)" onClick="SetColor(64,0,64)"></div>
+                            <div class="column" style="background-color: rgb(255,128,255)" onClick="SetColor(255,128,255)"></div>
+                            <div class="column" style="background-color: rgb(255,0,128)" onClick="SetColor(255,0,128)"></div>
+                            <div class="column" style="background-color: rgb(128,0,255)" onClick="SetColor(128,0,255)"></div>
+                            <div class="column" style="background-color: rgb(255,255,255)" onClick="SetColor(255,255,255)"></div>
                         </div>
                     </div>
                     <div class="name__functionality">
@@ -145,7 +149,7 @@
             <div class="info__bar">
                 <div class="current__color">
                     <div>Текущий цвет:  </div> 
-                    <div class="current__color__block"></div>
+                    <div class="current__color__block" id="current__color__block"></div>
                 </div>
 
                 <div class="current__thickness">

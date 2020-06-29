@@ -85,6 +85,55 @@ button:focus {
     height: 80px;
 }
 
+/* Thickness */
+
+.thickness > .functionality{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.thickness_size{
+    width: 48px;
+    background-color: black;
+    margin: 2px;
+    border: 1px solid black;
+    transition: transform .2s linear;
+}
+
+.thickness_size:hover{
+    transform: scale(1.1);
+}
+
+.thickness_size_one{
+    height: 5px;
+}
+
+.thickness_size_two{
+    height: 8px;
+}
+
+.thickness_size_three{
+    height: 11px;
+}
+
+.thickness_size_four{
+    height: 15px;
+}
+
+.thickness_size_custom{
+    width: 48px;
+    background-color: white;
+    margin: 2px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+/* Colors */
+
 .colors .functionality{
     display: flex;
     justify-content: center;
@@ -136,7 +185,7 @@ button:focus {
     justify-content: center;
 
     font-family: 'Pangolin', cursive;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .info__bar > div{
