@@ -58,11 +58,11 @@ button:focus {
 }
 
 .input__from__buffer{
-    width: 100px;
+    width: 80px;
 }
 
 .picture{
-    width: 220px;
+    width: 240px;
 }
 
 .tools{
@@ -85,15 +85,61 @@ button:focus {
     height: 80px;
 }
 
+/* Picture */
+
+.picture >.functionality{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.picture__DownloadOrUpload{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rotare__image{
+    display: flex;
+    justify-content: center;
+}
+
+.button__rotate {
+    border: none;
+    background-color: #f5f6f7e1;
+}
+
+.load {
+    width: 50px;
+    height: 38px;
+    margin: 4px;
+    cursor: pointer;
+    transition: transform .1s linear;
+}
+
+.load:hover{
+    transform: scale(1.2);
+}
+
+.button__rotate {
+    font-size: 9px;
+    width: 70px;
+    text-shadow: 0 0 2px #C4C1C0;
+    transition: transform .1s linear;
+
+}
+
+.button__rotate:hover{
+    font-size: 10px; 
+    transform: scale(1.1);
+}
+
+
 /* Tools */
 .tools > .functionality{
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-
-.tool__row{
-
 }
 
 .tool {
