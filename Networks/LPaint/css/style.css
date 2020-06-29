@@ -69,7 +69,7 @@ button:focus {
     width: 100px;
 }
 
-.figure{
+.figures{
     width: 220px;
 }
 
@@ -85,6 +85,37 @@ button:focus {
     height: 80px;
 }
 
+/* Figures */
+
+.figures > .functionality{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: #eeeeeee7;
+    margin: 6px;
+}
+
+.figure__row{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.figure {
+    height: 24px;
+    width: 24px;
+    margin: 2px;
+    cursor: pointer;
+    transition: transform .2s linear;
+}
+
+.figure:hover{
+    transform: scale(1.05);
+}
+.f_circle{
+    background-image: url("img/circle.svg");
+}
+
 /* Thickness */
 
 .thickness > .functionality{
@@ -92,8 +123,6 @@ button:focus {
     justify-content: center;
     flex-direction: column;
 }
-
-
 
 .thickness_size{
     width: 48px;
