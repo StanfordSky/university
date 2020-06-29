@@ -63,7 +63,16 @@
                 <!--Section for choose tool from collection-->
                 <div class="tools  section__tools">
                     <div class="functionality">
-
+                        <div class="functionality">
+                            <div class="tool__row">
+                                <img class="tool" src="img/clean.svg" title="Ластик" onClick="Eraser()" alt="">
+                                <img class="tool" src="img/input.svg" title="Текст" onClick="InputText()" alt="">
+                            </div>
+                            <div class="tool__row">
+                                <img class="tool" src="img/size.svg"  title="Размер шрифта" onClick="ChangeFontSize()" alt="">
+                                <img class="tool" src="img/font.svg"  title="Изменить шрифт" onClick="ChangeFont()" alt="">   
+                            </div>
+                        </div>
                     </div>
                     <div class="name__functionality">
                         Инструменты
@@ -74,18 +83,18 @@
                 <div class="figures  section__tools">
                     <div class="functionality">
                         <div class="figure__row">
-                            <img class="figure" src="img/graph.svg" onClick="SetFigure(1)" alt="">
-                            <img class="figure" src="img/line.svg" onClick="SetFigure(2)" alt="">
-                            <img class="figure" src="img/circle.svg" onClick="SetFigure(3)" alt="">
-                            <img class="figure" src="img/rectangle.svg" onClick="SetFigure(4)" alt="">
-                            <img class="figure" src="img/triangle.svg" onClick="SetFigure(5)" alt="">
+                            <img class="figure" src="img/graph.svg"  title="Кисть" onClick="SetFigure(1)" alt="">
+                            <img class="figure" src="img/line.svg"  title="Прямая линия" onClick="SetFigure(2)" alt="">
+                            <img class="figure" src="img/circle.svg"  title="Круг" onClick="SetFigure(3)" alt="">
+                            <img class="figure" src="img/rectangle.svg"  title="Прямоугольник" onClick="SetFigure(4)" alt="">
+                            <img class="figure" src="img/triangle.svg"  title="Прямоугольник" onClick="SetFigure(5)" alt="">
                         </div>
                         <div class="figure__row">
-                            <img class="figure" src="img/triangle2.svg" onClick="SetFigure(6)" alt="">
-                            <img class="figure" src="img/rhombus.svg" onClick="SetFigure(7)" alt="">
-                            <img class="figure" src="img/up-arrow.svg" onClick="SetFigure(8)"  alt="">
-                            <img class="figure" src="img/next.svg" onClick="SetFigure(9)" alt="">
-                            <img class="figure" src="img/return.svg" onClick="SetFigure(10)" alt="">
+                            <img class="figure" src="img/triangle2.svg"  title="Треугольник" onClick="SetFigure(6)" alt="">
+                            <img class="figure" src="img/rhombus.svg"  title="Ромб" onClick="SetFigure(7)" alt="">
+                            <img class="figure" src="img/up-arrow.svg"  title="Стрелка вверх" onClick="SetFigure(8)"  alt="">
+                            <img class="figure" src="img/next.svg"  title="Стрелка вправо" onClick="SetFigure(9)" alt="">
+                            <img class="figure" src="img/return.svg"  title="Стрелка влево" onClick="SetFigure(10)" alt="">
                         </div>
                     </div>
                     <div class="name__functionality">
@@ -96,11 +105,11 @@
                 <!--Section for choose thickness-->
                 <div class="thickness  section__tools">
                     <div class="functionality">
-                        <div class="thickness_size thickness_size_one" onClick="SetWeigth(1)"></div>
-                        <div class="thickness_size thickness_size_two" onClick="SetWeigth(4)"></div>
-                        <div class="thickness_size thickness_size_three" onClick="SetWeigth(8)"></div>
-                        <div class="thickness_size thickness_size_four" onClick="SetWeigth(12)"></div>
-                        <input class="thickness_size_custom" id="thickness_size_custom" value="5" onBlur="SetCustomWeigth()"></input>
+                        <div class="thickness_size thickness_size_one" title="1" onClick="SetWeigth(1)"></div>
+                        <div class="thickness_size thickness_size_two"  title="4" onClick="SetWeigth(4)"></div>
+                        <div class="thickness_size thickness_size_three"  title="8" onClick="SetWeigth(8)"></div>
+                        <div class="thickness_size thickness_size_four"  title="12" onClick="SetWeigth(12)"></div>
+                        <input class="thickness_size_custom" id="thickness_size_custom" value="5" title="Поле для ввода собственного размера" onBlur="SetCustomWeigth()"></input>
                     </div>
                     <div class="name__functionality">
                         Толщина
@@ -165,12 +174,14 @@
                     <div class="current__color__block" id="current__color__block"></div>
                 </div>
 
-                <div class="current__thickness">
-
+                <div class="current__font">
+                    <div>Текущий шрифт:  </div> 
+                    <div class="current__font__block" id="current__font__block">Verdana</div>
                 </div>
 
-                <div class="current__position">
-
+                <div class="current__size">
+                    <div>Текущий размер:  </div> 
+                    <div class="current__size__block" id="current__size__block">22px</div>
                 </div>
             </div>
         </div>
