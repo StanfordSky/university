@@ -16,23 +16,11 @@
         <link rel="stylesheet"
              href="css\style.css">
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
-            crossorigin="anonymous"></script>
-
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
-            crossorigin="anonymous"></script>
-
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
-            crossorigin="anonymous"></script>
-
         <script src="js\script.js"></script>
 
         <title>LPaint</title>
     </head>
-    <body>
+    <body >
 
         <!--Container for align to center-->
         <div class="container">
@@ -41,7 +29,7 @@
             <div class="toolsbar"> 
 
                 <!--Section for input picture from buffer on toolbar-->
-                <div class="input__from__buffer section__tools">
+                <!--<div class="input__from__buffer section__tools">
                     <div class="functionality">
 
                     </div>
@@ -49,20 +37,18 @@
                         Буфер обмена
                     </div>
                 </div>
+                -->
 
                 <!--Section for edit picture on canvas-->
                 <div class="picture  section__tools">
                     <div class="functionality">
-                        <div class="picture__DownloadOrUpload">
-                            <img class="load download" title="Скачать файл" src="img/download.svg" alt="">
-                            <img class="load upload" title="Загрузить файл" src="img/upload.svg" alt="">
+                        <div class="download__file">
+                            <input type="file" name="" id="choose__box__download">
+                            <img class="load download" title="Скачать файл" src="img/download.svg" onClick="DownloadImage()" alt="">
                         </div>
-                        <div class="rotare__image">
-                            <button class="button__rotate rotate90degree" title="Повернуть холст на 90 градусов">Повернуть на 90°</button>
-                            <br>
-                            <button class="button__rotate rotate180degree" title="Повернуть холст на 180 градусов">Повернуть на 180°</button>
-                            <br>
-                            <button class="button__rotate rotate270degree" title="Повернуть холст на 270 градусов">Повернуть на 270°</button>
+                        <div class="upload__file">
+                            <input type="file" name="" id="choose__box__upload">
+                            <img class="load upload" title="Загрузить файл" src="img/upload.svg" onClick="choose__box__upload.click()" alt="">
                         </div>
                     </div>
                     <div class="name__functionality">
@@ -173,7 +159,7 @@
             </div>
 
             <!--Main canvas-->
-            <canvas class="canvas" id="canvas" width="940px" height="600px"> 
+            <canvas class="canvas" id="canvas" width="900px" height="900px"> 
                   Ваш браузер не поддерживает Canvas
             </canvas>
 

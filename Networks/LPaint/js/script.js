@@ -1,4 +1,8 @@
 
+// Params for Canvas
+var canvas;
+var context;
+
 // Color
 var red = 0,
     green = 0,
@@ -18,7 +22,7 @@ var inputText = false,
 
 window.onload = function(){
     // Create canvas
-    var canvas = document.getElementById("canvas"), 
+    canvas = document.getElementById("canvas");
     // Define context
     context = canvas.getContext("2d"),
     // Receive size canvas
@@ -31,8 +35,10 @@ window.onload = function(){
 
     // Event MouseDown    
     canvas.addEventListener("mousedown", function(e){
+        // Defining selected figure and draw them
         mouse.x = e.pageX - this.offsetLeft;
         mouse.y = e.pageY - this.offsetTop;
+        // Checking active flag input text
         if(inputText == true)
         {
             let result = prompt("Введите текст:","");
@@ -56,6 +62,7 @@ window.onload = function(){
 
     // Event MouseMove  
     canvas.addEventListener("mousemove", function(e){
+        // Defining selected figure and draw them
         if(figure == 1) // curve
         {
             if(draw==true)
@@ -71,6 +78,9 @@ window.onload = function(){
 
     // Event MouseUp  
     canvas.addEventListener("mouseup", function(e){ 
+        context.save();
+
+        // Defining selected figure and draw them
         if(figure == 1) // curve
         {  
             mouse.x = e.pageX - this.offsetLeft;
@@ -79,7 +89,6 @@ window.onload = function(){
             context.stroke();
             context.closePath();
             draw = false;
-        
         }
         else if(figure == 2)
         {
@@ -175,11 +184,17 @@ window.onload = function(){
             context.stroke();
             context.closePath();
         }
+        
         });
+
+        // define event upload image
+        document.getElementById("choose__box__upload").addEventListener("change", UploadImage, false);
+
 }
 
 // Set current color
 function SetColor(red, green, blue){   
+    context.restore();
     this.red = red;
     this.green = green;
     this.blue = blue;
@@ -205,6 +220,7 @@ function SetFigure(number){
     figure = number;
 }
 
+// Define eraser
 function Eraser()
 {
     figure = 1;
@@ -214,11 +230,19 @@ function Eraser()
     document.getElementById("current__color__block").style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
 }
 
-function InputText(){
-    inputText = true;
+// Active state
+function InputText()
+{
+    // Toggle
+    if(inputText)
+        inputText = false;
+    else
+        inputText = true;
 }
 
-function ChangeFontSize(){
+// ChangeFontSize
+function ChangeFontSize()
+{
     let result = prompt("Введите размер шрифта.\n\nПример:\n- 14px\n- 4%\n- 10em\n-12ex");
     if(result == null)
         return;
@@ -226,10 +250,42 @@ function ChangeFontSize(){
     document.getElementById("current__size__block").innerHTML  = size;
 }
 
-function ChangeFont(){
+// Change font
+function ChangeFont()
+{
     let result = prompt("Введите название шрифта.\n\nПример:\n- Pangolin\n- Verdana");
     if(result == null)
         return;
     font = result;
     document.getElementById("current__font__block").innerHTML = font;
 }
+
+// Download image to default folder
+function DownloadImage(){
+    let downloadLink = document.createElement('a');
+    downloadLink.setAttribute('download', 'MyImageLPaint.jpg');
+    let dataURL = canvas.toDataURL('image/png');
+    let url = dataURL.replace(/^data:image\/png/,'data:application/octet-stream');
+    downloadLink.setAttribute('href', url);
+    downloadLink.click();
+}
+
+// Upload selected image
+function UploadImage(e) {
+    var dx = 0;
+    var arrImg = [];
+    var reader = new FileReader;
+    reader.onload = function(event) {
+        var img = new Image;
+        img.onload = function() {
+            arrImg.push(img);
+            dx = 0;
+            arrImg.forEach(function(img) {
+                context.drawImage(img, dx, 0);
+                dx += img.width;              
+            })
+        };
+        img.src = event.target.result;
+    };
+    reader.readAsDataURL(e.target.files[0])
+};

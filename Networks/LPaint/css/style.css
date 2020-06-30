@@ -1,3 +1,6 @@
+
+
+
 /* Common setting */
 body 
 {
@@ -19,26 +22,29 @@ button:focus {
     outline: none;
 }
 
-
 .container{
     width: 100%;
     max-width: 1000px;
     height: 800px;
 }
 
+
+
+
+
+
 /* Toolbar */
 
 .toolsbar {
     height: 100px;
-    width: 960px;
+    width: 710px;
     border: 1px solid rgb(240, 240, 240);
     top: 0;
-    left: 0;
     background-color: rgb(245, 246, 247);
-    
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    margin: 0 auto;
 
 }
 
@@ -57,12 +63,14 @@ button:focus {
    font-size: 11px;
 }
 
+/*
 .input__from__buffer{
     width: 80px;
 }
+*/
 
 .picture{
-    width: 240px;
+    width: 70px;
 }
 
 .tools{
@@ -85,6 +93,11 @@ button:focus {
     height: 80px;
 }
 
+
+
+
+
+
 /* Picture */
 
 .picture >.functionality{
@@ -94,10 +107,6 @@ button:focus {
     flex-direction: column;
 }
 
-.picture__DownloadOrUpload{
-    display: flex;
-    justify-content: space-between;
-}
 
 .rotare__image{
     display: flex;
@@ -110,8 +119,8 @@ button:focus {
 }
 
 .load {
-    width: 50px;
-    height: 38px;
+    width: 30px;
+    height: 30px;
     margin: 4px;
     cursor: pointer;
     transition: transform .1s linear;
@@ -121,18 +130,19 @@ button:focus {
     transform: scale(1.2);
 }
 
-.button__rotate {
-    font-size: 9px;
-    width: 70px;
-    text-shadow: 0 0 2px #C4C1C0;
-    transition: transform .1s linear;
-
+#choose__box__upload{
+    width: 20px;
+    height: 20px;
+    display: none;
 }
 
-.button__rotate:hover{
-    font-size: 10px; 
-    transform: scale(1.1);
+
+#choose__box__download{
+    width: 20px;
+    height: 20px;
+    display: none;
 }
+
 
 
 /* Tools */
@@ -153,6 +163,10 @@ button:focus {
 .tool:hover{
     transform: scale(1.5);
 }
+
+
+
+
 /* Figures */
 
 .figures > .functionality{
@@ -180,6 +194,10 @@ button:focus {
 .figure:hover{
     transform: scale(1.1);
 }
+
+
+
+
 /* Thickness */
 
 .thickness > .functionality{
@@ -225,6 +243,9 @@ button:focus {
 }
 
 
+
+
+
 /* Colors */
 
 .colors .functionality{
@@ -252,6 +273,7 @@ button:focus {
 }
 
 
+
 /* Canvas */
 .canvas{  
     margin: 10px;
@@ -259,9 +281,10 @@ button:focus {
     
     -webkit-box-shadow: 5px 5px 5px 1px rgba(1,1,1,0.2);
     box-shadow: 5px 5px 5px 1px rgba(1,1,1,0.2);
-
     border-radius: 1px;
 }
+
+
 
 /*  Info__bar */
 
@@ -285,7 +308,6 @@ button:focus {
     height: 30px;
     width: 33.3%;
     border: 1px solid rgba(0,0,0,0.2);
-
 }
 
 .current__color{
@@ -302,13 +324,11 @@ button:focus {
 }
 
 .current__color__block{
-
     background-color: black;
     margin-right: 20px;
     border: 1px solid rgba(1,1,1,0.2);
     border-radius: 1px;
 }
-
 
 .current__font{
     display: flex;
