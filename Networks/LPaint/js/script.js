@@ -57,7 +57,6 @@ window.onload = function(){
             context.beginPath();
             context.moveTo(mouse.x, mouse.y);
         }   
-
     });
 
     // Event MouseMove  
