@@ -15,7 +15,8 @@
 
  - csc File.cs                          - Компиляция File.cs и создание File.exe:
  - csc -out:My.exe File.cs              - Компиляция File.cs и создание My.exe:
- - csc /target:exe File.cs              - КОмпиляция File.cs в консольное приложение File.exe;
+ - csc /target:exe File.cs              - Компиляция File.cs в консольное приложение File.exe;
+ - csc /target:winexe File.cs           - Ктмпиляция File.cs в графическое приложение File.exe;
 */
 using System;
 

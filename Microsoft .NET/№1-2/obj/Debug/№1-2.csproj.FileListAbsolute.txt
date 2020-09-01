@@ -1,0 +1,10 @@
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№1-2\bin\Debug\№1-2.exe.config
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№1-2\bin\Debug\№1-2.exe
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№1-2\bin\Debug\№1-2.pdb
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№1-2\obj\Debug\№1-2.csprojAssemblyReference.cache
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№1-2\obj\Debug\_1_2.Form1.resources
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№1-2\obj\Debug\_1_2.Properties.Resources.resources
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№1-2\obj\Debug\№1-2.csproj.GenerateResource.cache
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№1-2\obj\Debug\№1-2.csproj.CoreCompileInputs.cache
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№1-2\obj\Debug\№1-2.exe
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№1-2\obj\Debug\№1-2.pdb
