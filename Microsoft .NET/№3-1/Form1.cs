@@ -12,6 +12,8 @@ namespace _3_1
 {
     public partial class Form1 : Form
     {
+        string[] strings;
+
 
         // ------ Constructor ------ // 
         public Form1()
@@ -133,9 +135,11 @@ namespace _3_1
 
 
         // ------ Tab Control #4  ------ // 
+
+        /* -- Button #7 -- */
         private void button7_Click(object sender, EventArgs e)
         {
-            string[] strings = textBox7.Text.Split('\n');
+            strings = textBox7.Text.Split('\n');
 
 
             for (int i = 0; i < strings.Length; i++)
@@ -155,7 +159,10 @@ namespace _3_1
         }
 
 
+
+
         // ------ Tab Control #5  ------ //
+        /* -- Button #8 -- */
         private void button8_Click(object sender, EventArgs e)
         {
             double sumbefore = 0,
@@ -179,6 +186,52 @@ namespace _3_1
 
 
         // ------ Tab Control #6  ------ //
+        /* -- Button #9 -- */
+        private void button9_Click(object sender, EventArgs e)
+        {
+            strings = textBox9.Text.Split('\n');
+            textBox10.Text = "";
+            for (int i = strings.Length-1; i >= 0; i--)
+            {
+                try
+                {
+                    Convert.ToDouble(strings[i]);
+                }
+                catch (Exception)
+                {
+                     textBox10.Text += strings[i] + "\r\n";
+                }
+            }
+        }
+
+
+        // ------ Tab Control #7  ------ //
+        /* -- Button #10 -- */
+        private void button10_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(textBox11.Text),
+                   b = Convert.ToDouble(textBox12.Text),
+                   h = Convert.ToDouble(textBox13.Text),
+                   f = 0;
+
+            textBox14.Text = "";
+            
+            if(a > b)
+            {
+                double swap = a;
+                       a = b;
+                       b = swap;
+            }
+
+            while (a < b)
+            {
+                f = Math.Sin(a) / (Math.Abs(a) + 1);
+                a += h;
+                textBox14.Text += "    x = " + a + ";   f(x) = " + f + "\r\n";
+            }
+        }
+
+
     }
 }
 
