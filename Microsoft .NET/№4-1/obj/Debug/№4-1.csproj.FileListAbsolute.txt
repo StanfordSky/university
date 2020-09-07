@@ -1,0 +1,6 @@
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-1\obj\Debug\№4-1.csprojAssemblyReference.cache
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-1\obj\Debug\№4-1.csproj.CoreCompileInputs.cache
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-1\bin\Debug\№4-1.dll
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-1\bin\Debug\№4-1.pdb
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-1\obj\Debug\№4-1.dll
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-1\obj\Debug\№4-1.pdb
