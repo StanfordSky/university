@@ -7,3 +7,4 @@ C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№2-1\obj\Debug\№2-
 C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№2-1\obj\Debug\№2-1.csproj.CoreCompileInputs.cache
 C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№2-1\obj\Debug\№2-1.exe
 C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№2-1\obj\Debug\№2-1.pdb
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№2-1\obj\Debug\№2-1.csprojAssemblyReference.cache

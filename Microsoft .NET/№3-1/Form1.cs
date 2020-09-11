@@ -165,21 +165,21 @@ namespace _3_1
         /* -- Button #8 -- */
         private void button8_Click(object sender, EventArgs e)
         {
-            double sumbefore = 0,
-                    sumafter = 0,
-                    accuraty = Convert.ToDouble(numericUpDown2.Value);
+            decimal sumbefore = 0,
+                    sumafter = 0;
+                
             textBox8.Text = " ";
-            double x = 1;
+            decimal x = 1;
 
             while (true)
             {
-                sumafter += 1 / x;
-                textBox8.Text += "Sum = " + sumafter + "\r\n";
-                if (sumafter - sumbefore < accuraty)
+                sumafter += 1M / x;
+                textBox8.AppendText("Sum = " + sumafter + Environment.NewLine);
+                if (Math.Abs(sumafter - sumbefore) < numericUpDown2.Value)
                 {
                     return;
                 }
-                x+=1000;
+                x+=1;
                 sumbefore = sumafter;
             }
         }

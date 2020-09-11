@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace _4_2
 {
-    public partial class TypeOfWork : Form
+    public partial class FormEmployee : Form
     {
-        public TypeOfWork()
+        public FormEmployee()
         {
             InitializeComponent();
+        }
+
+        private void Employee_FormClosed(object sender, FormClosedEventArgs e)
+        {
+          
         }
     }
 }
