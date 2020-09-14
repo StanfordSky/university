@@ -1,4 +1,4 @@
-﻿namespace _1_3
+﻿namespace NotepadForms
 {
     partial class Form1
     {

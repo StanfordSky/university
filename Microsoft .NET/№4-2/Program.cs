@@ -6,6 +6,11 @@ using System.Windows.Forms;
 
 namespace _4_2
 {
+    internal interface IValidatable
+    {
+        bool IsValid { get; }
+    }
+
     static class Program
     {
         /// <summary>

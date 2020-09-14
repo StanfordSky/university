@@ -1,39 +1,37 @@
 ﻿using System;
-using System.Collections.Generic;
-
 
 namespace _4_1
 {
-    interface IValidatable
+    internal interface IValidatable
     {
         bool IsValid { get; }
     }
 
     // ------ Class - Employee ------ //
-    public class Employee  : IValidatable
+    public class Employee : IValidatable
     {
         // ---- Properties --- //
 
         /// <summary>
-        /// Firs tName of worker
-        /// </summary>
-        
-        public string FirstName    { get; set; } = "";
-        /// <summary>
-        /// Last Name of worker
-        /// </summary>
-
-        public string LastName     { get; set; } = "";
-        /// <summary>
-        /// Patronymic of worker
-        /// </summary>
-        public string Patronymic   { get; set; } = "";
-
+        ///     Firs tName of worker
+        /// </summary
+        public string FirstName { get; set; } = "";
 
         /// <summary>
-        /// Salary of worker
+        ///     Last Name of worker
         /// </summary>
-        public double Salary       { get; set; }
+        public string LastName { get; set; } = "";
+
+        /// <summary>
+        ///     Patronymic of worker
+        /// </summary>
+        public string Patronymic { get; set; } = "";
+
+
+        /// <summary>
+        ///     Salary of worker
+        /// </summary>
+        public double Salary { get; set; }
 
 
         public bool IsValid
@@ -50,36 +48,30 @@ namespace _4_1
         // --- Methods --- //
 
         /// <summary>
-        /// Default Constructor
+        ///     Default Constructor
         /// </summary>
         public Employee()
         {
-            
         }
 
 
         /// <summary>
-        /// The full constructor
+        ///     The full constructor
         /// </summary>
-        public Employee(string FirstName, string LastName, string Patronymic, double Salary)
+        public Employee(string firstName, string lastName, string patronymic, double salary)
         {
-            this.FirstName      = FirstName;
-            this.LastName       = LastName;
-            this.Patronymic     = Patronymic;
-            this.Salary         = Salary;
+            FirstName = firstName;
+            LastName = lastName;
+            Patronymic = patronymic;
+            Salary = salary;
         }
 
         public override string ToString()
         {
-            return "First Name - " + FirstName + ", Last Name - " + LastName + ", Patronymic - " + Patronymic + ".\r\nSalary = " + Salary + ".\r\n\n";
+            return "First Name - " + FirstName + ", Last Name - " + LastName + ", Patronymic - " + Patronymic +
+                   ".\r\nSalary = " + Salary + ".\r\n\n";
         }
-
     }
-
-
-
-
-
 
 
     // ------ Class - Type of Work ------ //
@@ -88,11 +80,12 @@ namespace _4_1
         // ---- Properties --- ///
 
         /// <summary>
-        /// Payment per Day of worker
+        ///     Payment per Day of worker
         /// </summary>
-        public double PaymentPerDay { get; set; } = -1;
+        public int PaymentPerDay { get; set; } = -1;
+
         /// <summary>
-        /// Description position of worker
+        ///     Description position of worker
         /// </summary>
         public string Description { get; set; } = "";
 
@@ -110,34 +103,26 @@ namespace _4_1
         // --- Methods --- //
 
         /// <summary>
-        /// Default Constructor
+        ///     Default Constructor
         /// </summary>
         public TypeOfWork()
         {
-
         }
 
         /// <summary>
-        /// The full constructor
+        ///     The full constructor
         /// </summary>
-        public TypeOfWork(string Description, double PaymentPerDay)
+        public TypeOfWork(string description, int paymentPerDay)
         {
-            this.Description = Description;
-            this.PaymentPerDay = PaymentPerDay;
+            Description = description;
+            PaymentPerDay = paymentPerDay;
         }
 
         public override string ToString()
         {
-            return "Payment per Day = " + PaymentPerDay + ".\r\nDescrption: " + Description + ".\r\n";
+            return "Payment per Day = " + PaymentPerDay + ".\r\n Description: " + Description + ".\r\n";
         }
     }
-
-
-
-
-
-
-
 
 
     // ------ Class - Job ------ //
@@ -146,24 +131,24 @@ namespace _4_1
         // ---- Properties --- ///
 
         /// <summary>
-        /// information about worker
+        ///     information about worker
         /// </summary>
         public Employee Worker;
 
         /// <summary>
-        /// information about position of worker
+        ///     information about position of worker
         /// </summary>
         public TypeOfWork Position;
 
         /// <summary>
-        /// Start date work
+        ///     Start date work
         /// </summary>
-        public DateTime StartDate    { get; set; } = DateTime.MinValue;
+        public DateTime StartDate { get; set; } = DateTime.MinValue;
 
         /// <summary>
-        /// End Date work
+        ///     End Date work
         /// </summary>
-        public DateTime EndDate      { get; set; } = DateTime.MinValue;
+        public DateTime EndDate { get; set; } = DateTime.MinValue;
 
         public bool IsValid
         {
@@ -176,33 +161,31 @@ namespace _4_1
         }
 
 
-
         // --- Methods --- //
 
         /// <summary>
-        /// Default Constructor
+        ///     Default Constructor
         /// </summary>
         public Job()
         {
-
         }
 
         /// <summary>
-        /// The full constructor
+        ///     The full constructor
         /// </summary>
-        public Job(Employee Worker, TypeOfWork Position, DateTime StartDate, DateTime EndDate)
+        public Job(Employee worker, TypeOfWork position, DateTime startDate, DateTime endDate)
         {
-            this.Worker = Worker;
-            this.Position = Position;
-            this.StartDate = StartDate;
-            this.EndDate = EndDate;
+            Worker = worker;
+            Position = position;
+            StartDate = startDate;
+            EndDate = endDate;
         }
 
         public override string ToString()
         {
             return "Worker: " + Worker.FirstName + " " + Worker.LastName + " " + Worker.Patronymic + ".\r\n" +
-                "Position - " + Position.Description + ".\r\n" +
-                "Date: " + StartDate + " - " + EndDate + ".\r\n";
+                   "Position - " + Position.Description + ".\r\n" +
+                   "Date: " + StartDate + " - " + EndDate + ".\r\n";
         }
     }
 }

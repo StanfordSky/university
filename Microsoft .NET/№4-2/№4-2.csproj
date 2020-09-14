@@ -53,6 +53,7 @@
     <Compile Include="FormEmployee.Designer.cs">
       <DependentUpon>FormEmployee.cs</DependentUpon>
     </Compile>
+    <Compile Include="Job.cs" />
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +68,7 @@
     <Compile Include="FormTypeOfWork.Designer.cs">
       <DependentUpon>FormTypeOfWork.cs</DependentUpon>
     </Compile>
+    <Compile Include="TypeOfWork.cs" />
     <EmbeddedResource Include="FormEmployee.resx">
       <DependentUpon>FormEmployee.cs</DependentUpon>
     </EmbeddedResource>
