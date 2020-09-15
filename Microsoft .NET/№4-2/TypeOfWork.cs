@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _4_2
+﻿namespace ClassLibraryWork
 {
 
     // ------ Class - Type of Work ------ //
-    public class TypeOfWork : IValidatable
+    public class TypeOfWork : IValid
     {
         // ---- Properties --- ///
 

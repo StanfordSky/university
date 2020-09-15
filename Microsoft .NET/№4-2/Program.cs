@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using ClassLibraryWork;
 
 namespace _4_2
 {
-    internal interface IValidatable
-    {
-        bool IsValid { get; }
-    }
+    
 
     static class Program
     {

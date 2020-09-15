@@ -1,19 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _4_2
+﻿namespace ClassLibraryWork
 {
+    internal interface IValid
+    {
+        bool IsValid { get; }
+    } 
+
     // ------ Class - Employee ------ //
-    public class Employee : IValidatable
+    public class Employee : IValid
     {
         // ---- Properties --- //
 
         /// <summary>
         ///     Firs tName of worker
-        /// </summary
+        /// </summary>
         public string FirstName { get; set; } = "";
 
         /// <summary>

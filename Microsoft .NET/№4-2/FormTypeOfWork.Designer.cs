@@ -38,7 +38,8 @@
             // 
             // buttonSaveTypeOfWork
             // 
-            this.buttonSaveTypeOfWork.Location = new System.Drawing.Point(94, 220);
+            this.buttonSaveTypeOfWork.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSaveTypeOfWork.Location = new System.Drawing.Point(103, 220);
             this.buttonSaveTypeOfWork.Name = "buttonSaveTypeOfWork";
             this.buttonSaveTypeOfWork.Size = new System.Drawing.Size(152, 33);
             this.buttonSaveTypeOfWork.TabIndex = 0;
@@ -59,7 +60,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(14, 62);
+            this.label2.Location = new System.Drawing.Point(14, 65);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 20);
             this.label2.TabIndex = 3;
@@ -68,10 +69,10 @@
             // textBoxDescription
             // 
             this.textBoxDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxDescription.Location = new System.Drawing.Point(124, 62);
+            this.textBoxDescription.Location = new System.Drawing.Point(103, 62);
             this.textBoxDescription.Multiline = true;
             this.textBoxDescription.Name = "textBoxDescription";
-            this.textBoxDescription.Size = new System.Drawing.Size(183, 135);
+            this.textBoxDescription.Size = new System.Drawing.Size(204, 152);
             this.textBoxDescription.TabIndex = 6;
             // 
             // numericUpDownPayBayDay
@@ -82,7 +83,7 @@
             this.numericUpDownPayBayDay.Size = new System.Drawing.Size(148, 26);
             this.numericUpDownPayBayDay.TabIndex = 7;
             // 
-            // TypeOfWork
+            // FormTypeOfWork
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -92,7 +93,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonSaveTypeOfWork);
-            this.Name = "TypeOfWork";
+            this.Name = "FormTypeOfWork";
             this.Text = "TypeOfWork";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPayBayDay)).EndInit();
             this.ResumeLayout(false);

@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace _4_2
+namespace ClassLibraryWork
 {
     // ------ Class - Job ------ //
-    public class Job : IValidatable
+    public class Job : IValid
     {
         // ---- Properties --- ///
 
@@ -43,7 +39,6 @@ namespace _4_2
 
 
         // --- Methods --- //
-
         /// <summary>
         ///     Default Constructor
         /// </summary>

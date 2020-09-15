@@ -30,9 +30,9 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.employeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.typeOfWorkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemAdd = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.typeOfWorkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -45,18 +45,32 @@
             this.typeOfWorkToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(268, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(293, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // employeeToolStripMenuItem
             // 
             this.employeeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addToolStripMenuItem,
+            this.ToolStripMenuItemAdd,
             this.editToolStripMenuItem});
             this.employeeToolStripMenuItem.Name = "employeeToolStripMenuItem";
             this.employeeToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.employeeToolStripMenuItem.Text = "Employee";
+            // 
+            // ToolStripMenuItemAdd
+            // 
+            this.ToolStripMenuItemAdd.Name = "ToolStripMenuItemAdd";
+            this.ToolStripMenuItemAdd.Size = new System.Drawing.Size(180, 22);
+            this.ToolStripMenuItemAdd.Text = "Add";
+            this.ToolStripMenuItemAdd.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
+            // 
+            // editToolStripMenuItem
+            // 
+            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editToolStripMenuItem.Text = "Edit";
+            this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
             // typeOfWorkToolStripMenuItem
             // 
@@ -66,20 +80,6 @@
             this.typeOfWorkToolStripMenuItem.Name = "typeOfWorkToolStripMenuItem";
             this.typeOfWorkToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
             this.typeOfWorkToolStripMenuItem.Text = "Type of Work";
-            // 
-            // addToolStripMenuItem
-            // 
-            this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.addToolStripMenuItem.Text = "Add";
-            this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
-            // 
-            // editToolStripMenuItem
-            // 
-            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.editToolStripMenuItem.Text = "Edit";
-            this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
             // addToolStripMenuItem1
             // 
@@ -95,14 +95,14 @@
             this.editToolStripMenuItem1.Text = "Edit";
             this.editToolStripMenuItem1.Click += new System.EventHandler(this.editToolStripMenuItem1_Click);
             // 
-            // Form1
+            // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(268, 102);
+            this.ClientSize = new System.Drawing.Size(293, 195);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "MainMenu";
             this.Text = "Main Menu";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -115,7 +115,7 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem employeeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemAdd;
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem typeOfWorkToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem1;
