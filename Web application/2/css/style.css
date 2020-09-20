@@ -21,9 +21,7 @@ a, a:hover, a:link{
 
 /* --- Intro --- */
 .intro {
-    position: absolute;
-    top: 0;
-    left: 0;
+    
     background: url("img/1.png") no-repeat;
     background-size: cover;
     width: 100%;
@@ -98,7 +96,11 @@ a, a:hover, a:link{
     padding: 10px;
 }
 
-
+.login{
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.2);
+    padding: 10px;
+}
 /* --- Center Intro --- */
 
 .intro__center{
@@ -138,5 +140,16 @@ a, a:hover, a:link{
     border: none;
     color: white;
     font-size: 34px;
+    transition: all 0.2s linear;
 }
   
+.button__intro:hover{
+    background-color: #4a8669;
+}
+
+/* --- After Intro --- */
+
+.after__intro{
+    height: 200px;
+
+}
