@@ -1,0 +1,7 @@
+C:\Users\lyado\OneDrive\Desktop\University\Theory of automata and formal languages\Theory of automata\Theory of automata and formal languages\bin\Debug\Theory of automata and formal languages.exe.config
+C:\Users\lyado\OneDrive\Desktop\University\Theory of automata and formal languages\Theory of automata\Theory of automata and formal languages\bin\Debug\Theory of automata and formal languages.exe
+C:\Users\lyado\OneDrive\Desktop\University\Theory of automata and formal languages\Theory of automata\Theory of automata and formal languages\bin\Debug\Theory of automata and formal languages.pdb
+C:\Users\lyado\OneDrive\Desktop\University\Theory of automata and formal languages\Theory of automata\Theory of automata and formal languages\obj\Debug\Theory of automata and formal languages.csprojAssemblyReference.cache
+C:\Users\lyado\OneDrive\Desktop\University\Theory of automata and formal languages\Theory of automata\Theory of automata and formal languages\obj\Debug\Theory of automata and formal languages.csproj.CoreCompileInputs.cache
+C:\Users\lyado\OneDrive\Desktop\University\Theory of automata and formal languages\Theory of automata\Theory of automata and formal languages\obj\Debug\Theory of automata and formal languages.exe
+C:\Users\lyado\OneDrive\Desktop\University\Theory of automata and formal languages\Theory of automata\Theory of automata and formal languages\obj\Debug\Theory of automata and formal languages.pdb

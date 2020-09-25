@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theory of automata and formal languages", "Theory of automata and formal languages\Theory of automata and formal languages.csproj", "{EF14DE28-62C2-477F-B21D-A0925B985726}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0FBBFFFA-74AD-4B31-BD00-443FFD6E1FC6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF14DE28-62C2-477F-B21D-A0925B985726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF14DE28-62C2-477F-B21D-A0925B985726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF14DE28-62C2-477F-B21D-A0925B985726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF14DE28-62C2-477F-B21D-A0925B985726}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05B4C064-4364-4FEA-BFE1-7B24E2A67292}
+	EndGlobalSection
+EndGlobal
