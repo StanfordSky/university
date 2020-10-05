@@ -221,3 +221,92 @@ a:link {
     width: 100%;
     background-color: #52ad81;
 }
+
+
+/* --- tarifs --- */
+
+.tarifs__field{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tarifs__information{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.tarifs__message{
+  opacity: 0.8;
+}
+
+.tarifs__types{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.name, .price, .projects, .members, .storage, .tarif_btn{
+  width: 300px;
+  text-align: center;
+  opacity: 1;
+  line-height: 80px;
+  font-size: 24px;
+}
+
+.price, .projects, .members, .storage{
+  height: 100px;
+}
+
+.tarif_btn{
+  margin-top: 80px;
+}
+
+.tarif_one{
+  background-color: #4b596c;
+  color: white;
+}
+
+.tarif_two{
+  background-color: #58ad52;
+  color: white;
+}
+
+.tarif_three{
+  background-color: #52a1ad;
+  color: white;
+}
+
+
+.d1{
+color: black;
+ background-color: #e9eef3;
+}
+
+.d2{
+  color: black;
+  background-color: #deebde;
+}
+
+.d3{
+  color: black;
+  background-color: #dee9ec;
+}
+
+button{
+  border: none;
+}
