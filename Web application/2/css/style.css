@@ -276,17 +276,53 @@ a:link {
 .tarif_one{
   background-color: #4b596c;
   color: white;
+  transition: all 0.1s linear;
 }
 
 .tarif_two{
   background-color: #58ad52;
   color: white;
+  transition: all 0.1s linear;
 }
 
 .tarif_three{
   background-color: #52a1ad;
   color: white;
+  transition: all 0.1s linear;
 }
+
+
+.tarif_on{
+  background-color: #4b596c;
+  color: white;
+}
+
+.tarif_tw{
+  background-color: #58ad52;
+  color: white;
+}
+
+.tarif_thre{
+  background-color: #52a1ad;
+  color: white;
+
+}
+
+.tarif_one:hover{
+  background-color: white;
+  color: #4b596c;
+}
+
+.tarif_two:hover{
+  background-color: white;
+  color: #58ad52;
+}
+
+.tarif_three:hover{
+  background-color: white;
+  color: #52a1ad;
+}
+
 
 
 .d1{
@@ -302,6 +338,18 @@ color: black;
 .d3{
   color: black;
   background-color: #dee9ec;
+}
+
+
+.tarif_btn:hover{
+  cursor: pointer;
+  box-shadow: 0 0 20px black;
+}
+
+.send__btn:hover{
+  box-shadow: 0 0 10px rgb(156, 156, 156);
+  color:#be393b;
+  background-color: white;
 }
 
 button{
@@ -408,6 +456,7 @@ form div{
   outline: none;
   border: none;
   color: white;
+  transition: all 0.1s linear;
 }
 
 
@@ -438,6 +487,7 @@ form div{
   line-height: 58px;
   margin: 30px;
   border-radius: 50px;
+
 }
 
 .left__part img{
@@ -453,5 +503,10 @@ form div{
 .url__site{
   font-size: 14px;
   margin: 12px;
+}
+
+.tw:hover, .fb:hover{
+  color: white;
+  background-color:rgba(136, 136, 136, 0.6);
 }
 
