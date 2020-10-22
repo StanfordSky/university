@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\git\University\Theory of automata and formal languages\Theory of automata\3\bin\Debug\3.exe.config
+C:\Users\User\Desktop\git\University\Theory of automata and formal languages\Theory of automata\3\bin\Debug\3.exe
+C:\Users\User\Desktop\git\University\Theory of automata and formal languages\Theory of automata\3\bin\Debug\3.pdb
+C:\Users\User\Desktop\git\University\Theory of automata and formal languages\Theory of automata\3\obj\Debug\3.csprojAssemblyReference.cache
+C:\Users\User\Desktop\git\University\Theory of automata and formal languages\Theory of automata\3\obj\Debug\3.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\git\University\Theory of automata and formal languages\Theory of automata\3\obj\Debug\3.exe
+C:\Users\User\Desktop\git\University\Theory of automata and formal languages\Theory of automata\3\obj\Debug\3.pdb
