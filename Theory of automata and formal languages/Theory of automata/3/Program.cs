@@ -16,7 +16,7 @@ namespace _3
 
         static void Main(string[] args)
         {
-            string teststring = " first = (45ac*2)-1+12dd + first";
+            string teststring = " first = (45ac*2)-1+12dd + first;" + "second = first + 2c/(6o*12d)*variable;";
             debug(teststring, "Входное выражение в исходном виде:");
             
             
