@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace _3
         static bool DEBUG = false;
         
         static Dictionary<int, string[]> lexemes = new Dictionary<int, string[]>();
+        
         static string StrID = "";
 
         static void Main(string[] args)
@@ -29,8 +31,8 @@ namespace _3
             try
             {
                 defineLexemes(teststring);
-                outputTableId();
                 Console.WriteLine(StrID);
+                outputTableId();
             }
             catch(Exception e)
             {
@@ -38,8 +40,7 @@ namespace _3
                     "Сообщение ошибки: " + e.Message + "\n\n\n" +
                     "Стек вызова: " + e.StackTrace + "\n\n\n" +
                     "Дополнительные сведения об ошибке: " + e.Data + "\n\n\n");
-            }
-            
+            }       
         }
 
 
@@ -137,6 +138,8 @@ namespace _3
 
         static void outputTableId()
         {
+            Console.WriteLine(" \n");
+            Console.WriteLine(" Таблица идентификаторов ");
             Console.WriteLine(" ---  | --   | ---- ");
             Console.WriteLine(" key  | type | id ");
             Console.WriteLine(" ---  | --   | ---- ");
