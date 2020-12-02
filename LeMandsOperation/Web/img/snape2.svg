@@ -12,12 +12,17 @@
 <defs>
     <style>
       .cls-1 {
-        fill: #fff;
-        fill-opacity: 0.1;
+        fill: #9f449b;
+        fill-opacity: 1;
         stroke: #fff;
         stroke-linejoin: round;
         stroke-width: 4px;
         fill-rule: evenodd;
+      }
+
+      .cls-1:hover{
+        fill: #9f449b;
+        fill-opacity: 1;
       }
     </style>
   </defs>
