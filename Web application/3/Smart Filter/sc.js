@@ -1,5 +1,5 @@
 function printFilms( arFilms, selector ) {
-    const startTemplate = '<table style="width:80%;"><tr style="background-color:#EFEFEF;"><td>Название</td><td>Жанр</td><td>Год выпуска</td><td>Рейтинг Кинопоиск</td></tr>';
+    const startTemplate = '<table style="width:80%;"><tr class="head_table"><td>Название</td><td>Жанр:</td><td>Год выпуск:</td><td>Рейтинг:</td></tr>';
     const lileTemplate = '<tr><td>{{name}}</td><td>{{genre}}</td><td>{{year}}</td><td>{{raiting}}</td></tr>';
     const endTemplate = '</table>';
     
