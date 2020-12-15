@@ -1,0 +1,33 @@
+C:\Users\Egor\source\repos\Lab04\WindowsFormsControlLibraryBjuro\bin\Debug\WindowsFormsControlLibraryBjuro.dll
+C:\Users\Egor\source\repos\Lab04\WindowsFormsControlLibraryBjuro\bin\Debug\WindowsFormsControlLibraryBjuro.pdb
+C:\Users\Egor\source\repos\Lab04\WindowsFormsControlLibraryBjuro\bin\Debug\ClassLibraryBjuro.dll
+C:\Users\Egor\source\repos\Lab04\WindowsFormsControlLibraryBjuro\bin\Debug\ClassLibraryBjuro.pdb
+C:\Users\Egor\source\repos\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.csprojAssemblyReference.cache
+C:\Users\Egor\source\repos\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.UserControlDealing.resources
+C:\Users\Egor\source\repos\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.csproj.GenerateResource.cache
+C:\Users\Egor\source\repos\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.csproj.CoreCompileInputs.cache
+C:\Users\Egor\source\repos\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.csproj.CopyComplete
+C:\Users\Egor\source\repos\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.dll
+C:\Users\Egor\source\repos\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.pdb
+C:\Users\Egor\Desktop\Lab04\WindowsFormsControlLibraryBjuro\bin\Debug\WindowsFormsControlLibraryBjuro.dll
+C:\Users\Egor\Desktop\Lab04\WindowsFormsControlLibraryBjuro\bin\Debug\WindowsFormsControlLibraryBjuro.pdb
+C:\Users\Egor\Desktop\Lab04\WindowsFormsControlLibraryBjuro\bin\Debug\ClassLibraryBjuro.dll
+C:\Users\Egor\Desktop\Lab04\WindowsFormsControlLibraryBjuro\bin\Debug\ClassLibraryBjuro.pdb
+C:\Users\Egor\Desktop\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.csprojAssemblyReference.cache
+C:\Users\Egor\Desktop\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.UserControlDealing.resources
+C:\Users\Egor\Desktop\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.csproj.GenerateResource.cache
+C:\Users\Egor\Desktop\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.csproj.CoreCompileInputs.cache
+C:\Users\Egor\Desktop\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.csproj.CopyComplete
+C:\Users\Egor\Desktop\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.dll
+C:\Users\Egor\Desktop\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.pdb
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\WindowsFormsControlLibraryBjuro\bin\Debug\WindowsFormsControlLibraryBjuro.dll
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\WindowsFormsControlLibraryBjuro\bin\Debug\WindowsFormsControlLibraryBjuro.pdb
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\WindowsFormsControlLibraryBjuro\bin\Debug\ClassLibraryBjuro.dll
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\WindowsFormsControlLibraryBjuro\bin\Debug\ClassLibraryBjuro.pdb
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.csprojAssemblyReference.cache
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.UserControlDealing.resources
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.csproj.GenerateResource.cache
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.csproj.CopyComplete
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.dll
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\WindowsFormsControlLibraryBjuro\obj\Debug\WindowsFormsControlLibraryBjuro.pdb

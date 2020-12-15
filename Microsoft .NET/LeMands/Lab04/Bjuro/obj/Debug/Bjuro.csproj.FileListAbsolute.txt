@@ -1,0 +1,58 @@
+C:\Users\Egor\source\repos\Lab04\Bjuro\bin\Debug\Bjuro.exe.config
+C:\Users\Egor\source\repos\Lab04\Bjuro\bin\Debug\Bjuro.exe
+C:\Users\Egor\source\repos\Lab04\Bjuro\bin\Debug\Bjuro.pdb
+C:\Users\Egor\source\repos\Lab04\Bjuro\bin\Debug\ClassLibraryBjuro.dll
+C:\Users\Egor\source\repos\Lab04\Bjuro\bin\Debug\ClassLibraryBjuro.pdb
+C:\Users\Egor\source\repos\Lab04\Bjuro\obj\Debug\Bjuro.csprojAssemblyReference.cache
+C:\Users\Egor\source\repos\Lab04\Bjuro\obj\Debug\Bjuro.FormEmployer.resources
+C:\Users\Egor\source\repos\Lab04\Bjuro\obj\Debug\Bjuro.FormMain.resources
+C:\Users\Egor\source\repos\Lab04\Bjuro\obj\Debug\Bjuro.Properties.Resources.resources
+C:\Users\Egor\source\repos\Lab04\Bjuro\obj\Debug\Bjuro.csproj.GenerateResource.cache
+C:\Users\Egor\source\repos\Lab04\Bjuro\obj\Debug\Bjuro.csproj.CoreCompileInputs.cache
+C:\Users\Egor\source\repos\Lab04\Bjuro\obj\Debug\Bjuro.csproj.CopyComplete
+C:\Users\Egor\source\repos\Lab04\Bjuro\obj\Debug\Bjuro.exe
+C:\Users\Egor\source\repos\Lab04\Bjuro\obj\Debug\Bjuro.pdb
+C:\Users\Egor\source\repos\Lab04\Bjuro\obj\Debug\Bjuro.FormJobSeeker.resources
+C:\Users\Egor\source\repos\Lab04\Bjuro\obj\Debug\Bjuro.FormDealing.resources
+C:\Users\Egor\source\repos\Lab04\Bjuro\bin\Debug\WindowsFormsControlLibraryBjuro.dll
+C:\Users\Egor\source\repos\Lab04\Bjuro\bin\Debug\WindowsFormsControlLibraryBjuro.pdb
+C:\Users\Egor\Desktop\Lab04\Bjuro\bin\Debug\Bjuro.exe.config
+C:\Users\Egor\Desktop\Lab04\Bjuro\bin\Debug\Bjuro.exe
+C:\Users\Egor\Desktop\Lab04\Bjuro\bin\Debug\Bjuro.pdb
+C:\Users\Egor\Desktop\Lab04\Bjuro\bin\Debug\ClassLibraryBjuro.dll
+C:\Users\Egor\Desktop\Lab04\Bjuro\bin\Debug\WindowsFormsControlLibraryBjuro.dll
+C:\Users\Egor\Desktop\Lab04\Bjuro\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Egor\Desktop\Lab04\Bjuro\bin\Debug\ClassLibraryBjuro.pdb
+C:\Users\Egor\Desktop\Lab04\Bjuro\bin\Debug\WindowsFormsControlLibraryBjuro.pdb
+C:\Users\Egor\Desktop\Lab04\Bjuro\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Egor\Desktop\Lab04\Bjuro\obj\Debug\Bjuro.csprojAssemblyReference.cache
+C:\Users\Egor\Desktop\Lab04\Bjuro\obj\Debug\Bjuro.FormDealing.resources
+C:\Users\Egor\Desktop\Lab04\Bjuro\obj\Debug\Bjuro.FormEmployer.resources
+C:\Users\Egor\Desktop\Lab04\Bjuro\obj\Debug\Bjuro.FormMain.resources
+C:\Users\Egor\Desktop\Lab04\Bjuro\obj\Debug\Bjuro.FormJobSeeker.resources
+C:\Users\Egor\Desktop\Lab04\Bjuro\obj\Debug\Bjuro.Properties.Resources.resources
+C:\Users\Egor\Desktop\Lab04\Bjuro\obj\Debug\Bjuro.csproj.GenerateResource.cache
+C:\Users\Egor\Desktop\Lab04\Bjuro\obj\Debug\Bjuro.csproj.CoreCompileInputs.cache
+C:\Users\Egor\Desktop\Lab04\Bjuro\obj\Debug\Bjuro.csproj.CopyComplete
+C:\Users\Egor\Desktop\Lab04\Bjuro\obj\Debug\Bjuro.exe
+C:\Users\Egor\Desktop\Lab04\Bjuro\obj\Debug\Bjuro.pdb
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\bin\Debug\Bjuro.exe.config
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\bin\Debug\Bjuro.exe
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\bin\Debug\Bjuro.pdb
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\bin\Debug\ClassLibraryBjuro.dll
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\bin\Debug\WindowsFormsControlLibraryBjuro.dll
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\bin\Debug\ClassLibraryBjuro.pdb
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\bin\Debug\WindowsFormsControlLibraryBjuro.pdb
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\obj\Debug\Bjuro.csprojAssemblyReference.cache
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\obj\Debug\Bjuro.FormDealing.resources
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\obj\Debug\Bjuro.FormEmployer.resources
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\obj\Debug\Bjuro.FormMain.resources
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\obj\Debug\Bjuro.FormJobSeeker.resources
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\obj\Debug\Bjuro.Properties.Resources.resources
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\obj\Debug\Bjuro.csproj.GenerateResource.cache
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\obj\Debug\Bjuro.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\obj\Debug\Bjuro.csproj.CopyComplete
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\obj\Debug\Bjuro.exe
+C:\Users\User\Desktop\git\University\Microsoft .NET\LeMands\Lab04\Bjuro\obj\Debug\Bjuro.pdb
