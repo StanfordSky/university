@@ -36,7 +36,7 @@ function printFilms( arFilms, selector ) {
         }
         
         vals.sort();
-        vals.forEach(function(item, index, array) {
+        vals.forEach(function(item) {
             tmpLine += lileTemplate.replace("{{prop}}", prop ).replaceAll("{{name}}",item);
         });
         
@@ -85,7 +85,7 @@ function printFilms( arFilms, selector ) {
         return result;
     }
 
-    function getEmptyFilters(currentFilter, properties, films){
+    function getEmptyFilters(properties){
         let filters = [];
 
         for (let prop in properties) {
@@ -101,24 +101,16 @@ function printFilms( arFilms, selector ) {
 
     function closeEmptyCheckBox(curFilter, filters, films, properties)
     {
-        let checkFilter;
-
-        console.log(curFilter);
-        console.log(filters);
-
-       
-
+    
         for(let prop in properties){
             for(let filter in filters[prop]){
                 curFilter[prop].push(filters[prop][filter]);
                 if(applyFilters( films, curFilter, properties).length === 0){
                     document.getElementById(filters[prop][filter]).setAttribute('disabled', 'true');
-                    console.log("С " + filters[prop][filter] + " - пусто");
                 }else{
                     document.getElementById(filters[prop][filter]).removeAttribute('disabled');
                 }
                 curFilter[prop].pop();
-                console.log(curFilter);
             }
 
         }
@@ -133,7 +125,7 @@ function printFilms( arFilms, selector ) {
         {
             let curFilter    = readCurFilters(properties);
             let filtredFilms = applyFilters( films, curFilter, properties);
-            let unchecked    = getEmptyFilters(curFilter, properties, films);
+            let unchecked    = getEmptyFilters(properties);
             closeEmptyCheckBox(curFilter, unchecked,films, properties);
 
             printFilms( filtredFilms, '#elements' );
