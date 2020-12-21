@@ -2,7 +2,10 @@
     // ---- includes ----
     require 'includes/connectDB.php';
     // ------------------
-
+    if(!isset($_SESSION['user'])){
+        header('Location: /');
+        exit();
+    }
     // Receive data from Global GET/POST
     $id    = ReceivingIDfromGET($_GET['id']);
     $title = ReceiveTitleInterview($pdo, $id);

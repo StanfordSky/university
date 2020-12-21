@@ -25,9 +25,13 @@
 
 <section class="main__board">
     <div class="container-sm">
-
+    <?php if(isset($_SESSION['singup'])):?>
+        <div style="width: 100%; padding: 10px; background-color: #33c000; margin-top: 20px; border-radius: 2px; color: white;"> <?= $_SESSION['singup'] ?></div>
+    <?php unset($_SESSION['singup']); ?>
+    <?php endif;?>
     <?php if(isset($_SESSION['user'])):?>
-        <a class="btn btn-primary" href="addpage.php" role="button">Добавить</a>
+        <a class="btn btn-dark" role="button" style="width: 20%">Пользователь: <?=$_SESSION['user']?></a>
+        <a class="btn btn-primary" href="profile.php" style="width: 10%" role="button">Профиль</a>
     <?php else: ?>
         <button class="btn btn-primary" id="show_singup" role="button">Регистрация</button>
         <button class="btn btn-primary" id="show_singin" role="button">Авторизация</button>
@@ -36,7 +40,7 @@
             <?php foreach ($pdo->query($sql) as $row):?>
                 <div class="item">
                     <a class="interview__item"  <?php if(isset($_SESSION['user'])) {
-                        echo 'href=".php?id=' . $row['interviewcode'] . '"';
+                        echo 'href="interview.php?id=' . $row['interviewcode'] . '"';
                     } else{
                         echo 'onclick="alert(\'Необходимо авторизоваться\')"';
                     }?>>
@@ -104,7 +108,7 @@
 <dialog class="singin">
     <div class="container">
         <div class="auth">
-            <form class="form_auth" action="">
+            <form class="form_auth" method="post" enctype="multipart/form-data" action="singin.php">
                 <h4>Авторизация</h4>
                 <br>
                 <label for="username">Имя пользователя</label>
@@ -113,9 +117,10 @@
                 <label for="password">Пароль</label>
                 <input type="password" name="password" id="password" required>
                 <br>
-                <input type="submit"  value="Войти">
+                <input type="submit" value="Войти">
                 <br>
-
+                <br>
+                <a href="restore.php">Восстановить пароль</a>
             </form>
 
             <br><br><br>

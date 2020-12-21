@@ -6,11 +6,26 @@ p {
   margin: 0;
 }
 
-.resultspage_ {
+.resultspage_  {
   border: 1px solid rgba(160, 160, 160, 0.4);
   box-shadow: 0 0 10px rgba(160, 160, 160, 0.8);
   width: 40%;
   height: 300px;
+  background-color: rgb(250, 250, 255);
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.profile{
+  border: 1px solid rgba(160, 160, 160, 0.4);
+  box-shadow: 0 0 10px rgba(160, 160, 160, 0.8);
+  width: 80%;
+  padding: 20px;
   background-color: rgb(250, 250, 255);
   display: flex;
   margin: 0 auto;
