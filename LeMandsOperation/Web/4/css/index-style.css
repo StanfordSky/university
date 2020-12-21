@@ -103,21 +103,3 @@ a:hover {
   text-decoration: none;
   color: black;
 }
-
-.singup, .singin{
-  border: 1px solid rgba(195, 195, 195, 0.6);
-  box-shadow: 0 0 10px rgba(195, 195, 195, 0.6);
-  padding: 100px;
-  border-radius: 20px;
-}
-
-input{
-  overflow: hidden;
-}
-
-
-.register, .form_register, .form_auth, .auth{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
