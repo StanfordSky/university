@@ -1,0 +1,25 @@
+.hidden {
+    display: none;
+}
+.progress-bar {
+    height: 100%;
+    width: 0%;
+}
+.plot {
+    height: 300px;
+}
+
+.path_class{
+    max-width: 350px;
+    width: 350px;
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+
+.container_lab5{
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #e7e7e7;
+}
