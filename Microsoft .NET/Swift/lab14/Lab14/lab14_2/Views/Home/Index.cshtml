@@ -1,0 +1,34 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Фильмотека</title>
+</head>
+<body>
+    <div>
+        <h3>Много фильмов:</h3>
+        <table>
+            <tr>
+                <td><p>Название</p></td>
+                <td><p>Режисер</p></td>
+                <td><p>Год</p></td>
+                <td></td>
+            </tr>
+            @foreach (var f in ViewBag.Films)
+            {
+                <tr>
+                    <td><p>@f.Title</p></td>
+                    <td><p>@f.Producer</p></td>
+                    <td><p>@f.Year</p></td>
+                    <td><p><a href="/Home/Buy/@f.Id">Смотреть</a></p></td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

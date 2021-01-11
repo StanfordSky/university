@@ -1,0 +1,34 @@
+{
+  "Clients": [
+    {
+      "ClientId": 1,
+      "Fio": {
+        "FirstName": "a",
+        "MiddleName": "a",
+        "LastName": "a",
+        "IsValid": true
+      },
+      "Adress": "a",
+      "PhoneNumber": "+1-   -   -  -",
+      "IsValid": true
+    }
+  ],
+  "Cars": [
+    {
+      "Number": 1,
+      "Mark": "asd",
+      "Price": 1.0,
+      "PriceRent": 1.0,
+      "Type": 1,
+      "IsValid": true
+    }
+  ],
+  "Rents": [
+    {
+      "CarId": 1,
+      "ClientId": 1,
+      "StartDate": "2020-11-25T12:26:04.5013552+03:00",
+      "EndDate": "2020-11-29T12:26:04"
+    }
+  ]
+}
