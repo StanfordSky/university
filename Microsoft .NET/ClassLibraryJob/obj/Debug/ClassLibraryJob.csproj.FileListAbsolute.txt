@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\University\Microsoft .NET\ClassLibraryJob\bin\Debug\ClassLibraryWork.dll
+C:\Users\User\Desktop\University\Microsoft .NET\ClassLibraryJob\bin\Debug\ClassLibraryWork.pdb
+C:\Users\User\Desktop\University\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryJob.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\University\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryWork.dll
+C:\Users\User\Desktop\University\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryWork.pdb
