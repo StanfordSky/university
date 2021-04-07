@@ -7,14 +7,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ClassLibraryWork;
 
 namespace _4_2
 {
     public partial class FormJob : Form
     {
-        public FormJob()
+        public Job job { get; set; }
+
+        public FormJob(Job job)
         {
             InitializeComponent();
+            this.job = job;
+
+            foreach(var employee in Human.Employees.Values)
+            {
+                comboBoxEmployee.Items.Add(employee.ToString());
+            }
+
+            foreach (var typeOfWork in Human.TypeOfWorks.Values)
+            {
+                comboBoxTypeOfWork.Items.Add(typeOfWork.Description.ToString());
+            }
+
+        }
+
+        private void buttonSaveJob_Click(object sender, EventArgs e)
+        {
+            job.Worker = comboBoxEmployee.SelectedItem as Employee;
+            job.Position = comboBoxTypeOfWork.SelectedItem as TypeOfWork;
+
+            this.DialogResult = DialogResult.OK;
         }
     }
 }

@@ -85,8 +85,7 @@ namespace ClassLibraryWork
 
         public override string ToString()
         {
-            return "First Name - " + FirstName + ", Last Name - " + LastName + ", Patronymic - " + Patronymic +
-                   ".\r\nSalary = " + Salary + ".\r\n\n";
+            return $" {FirstName} {LastName} {Patronymic} ";                       
         }
     }
 

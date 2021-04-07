@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("123123123123123123123123123123123123123123123123123123123123123");
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.employeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenuItemAdd = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,9 +49,10 @@
             this.columnEmployee = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnTypeOfWork = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPageTypeOfWork = new System.Windows.Forms.TabPage();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.listViewTypeOfWork = new System.Windows.Forms.ListView();
             this.columnHeaderPermentPerDay = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnDescription = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columntypeofworkId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.menuStrip1.SuspendLayout();
             this.tabControlWork.SuspendLayout();
             this.tabPageEmployee.SuspendLayout();
@@ -84,14 +84,14 @@
             // ToolStripMenuItemAdd
             // 
             this.ToolStripMenuItemAdd.Name = "ToolStripMenuItemAdd";
-            this.ToolStripMenuItemAdd.Size = new System.Drawing.Size(96, 22);
+            this.ToolStripMenuItemAdd.Size = new System.Drawing.Size(180, 22);
             this.ToolStripMenuItemAdd.Text = "Add";
             this.ToolStripMenuItemAdd.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.editToolStripMenuItem.Text = "Edit";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
@@ -130,14 +130,14 @@
             // addToolStripMenuItem1
             // 
             this.addToolStripMenuItem1.Name = "addToolStripMenuItem1";
-            this.addToolStripMenuItem1.Size = new System.Drawing.Size(96, 22);
+            this.addToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.addToolStripMenuItem1.Text = "Add";
             this.addToolStripMenuItem1.Click += new System.EventHandler(this.addToolStripMenuItem1_Click);
             // 
             // editToolStripMenuItem1
             // 
             this.editToolStripMenuItem1.Name = "editToolStripMenuItem1";
-            this.editToolStripMenuItem1.Size = new System.Drawing.Size(96, 22);
+            this.editToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.editToolStripMenuItem1.Text = "Edit";
             this.editToolStripMenuItem1.Click += new System.EventHandler(this.editToolStripMenuItem1_Click);
             // 
@@ -165,14 +165,18 @@
             // 
             // listViewEmployee
             // 
+            this.listViewEmployee.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listViewEmployee.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnId,
             this.columnFullName,
             this.columnSalary});
+            this.listViewEmployee.FullRowSelect = true;
+            this.listViewEmployee.GridLines = true;
             this.listViewEmployee.HideSelection = false;
-            this.listViewEmployee.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
-            this.listViewEmployee.Location = new System.Drawing.Point(3, 3);
+            this.listViewEmployee.Location = new System.Drawing.Point(0, 3);
+            this.listViewEmployee.MultiSelect = false;
             this.listViewEmployee.Name = "listViewEmployee";
             this.listViewEmployee.Size = new System.Drawing.Size(486, 267);
             this.listViewEmployee.TabIndex = 0;
@@ -182,17 +186,17 @@
             // columnId
             // 
             this.columnId.Text = "ID";
-            this.columnId.Width = 125;
+            this.columnId.Width = 189;
             // 
             // columnFullName
             // 
             this.columnFullName.Text = "Full Name";
-            this.columnFullName.Width = 180;
+            this.columnFullName.Width = 194;
             // 
             // columnSalary
             // 
             this.columnSalary.Text = "Salary";
-            this.columnSalary.Width = 184;
+            this.columnSalary.Width = 230;
             // 
             // tabPageJob
             // 
@@ -210,6 +214,8 @@
             this.listViewJob.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnEmployee,
             this.columnTypeOfWork});
+            this.listViewJob.FullRowSelect = true;
+            this.listViewJob.GridLines = true;
             this.listViewJob.HideSelection = false;
             this.listViewJob.Location = new System.Drawing.Point(0, 3);
             this.listViewJob.Name = "listViewJob";
@@ -221,16 +227,16 @@
             // columnEmployee
             // 
             this.columnEmployee.Text = "Employee";
-            this.columnEmployee.Width = 240;
+            this.columnEmployee.Width = 245;
             // 
             // columnTypeOfWork
             // 
             this.columnTypeOfWork.Text = "Type Of Work";
-            this.columnTypeOfWork.Width = 239;
+            this.columnTypeOfWork.Width = 236;
             // 
             // tabPageTypeOfWork
             // 
-            this.tabPageTypeOfWork.Controls.Add(this.listView1);
+            this.tabPageTypeOfWork.Controls.Add(this.listViewTypeOfWork);
             this.tabPageTypeOfWork.Location = new System.Drawing.Point(4, 22);
             this.tabPageTypeOfWork.Name = "tabPageTypeOfWork";
             this.tabPageTypeOfWork.Padding = new System.Windows.Forms.Padding(3);
@@ -239,30 +245,37 @@
             this.tabPageTypeOfWork.Text = "TypeOfWork";
             this.tabPageTypeOfWork.UseVisualStyleBackColor = true;
             // 
-            // listView1
+            // listViewTypeOfWork
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.listViewTypeOfWork.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columntypeofworkId,
             this.columnHeaderPermentPerDay,
             this.columnDescription});
-            this.listView1.HideSelection = false;
-            this.listView1.LabelWrap = false;
-            this.listView1.Location = new System.Drawing.Point(0, 3);
-            this.listView1.MultiSelect = false;
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(486, 267);
-            this.listView1.TabIndex = 3;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.listViewTypeOfWork.FullRowSelect = true;
+            this.listViewTypeOfWork.GridLines = true;
+            this.listViewTypeOfWork.HideSelection = false;
+            this.listViewTypeOfWork.LabelWrap = false;
+            this.listViewTypeOfWork.Location = new System.Drawing.Point(0, 3);
+            this.listViewTypeOfWork.MultiSelect = false;
+            this.listViewTypeOfWork.Name = "listViewTypeOfWork";
+            this.listViewTypeOfWork.Size = new System.Drawing.Size(486, 267);
+            this.listViewTypeOfWork.TabIndex = 3;
+            this.listViewTypeOfWork.UseCompatibleStateImageBehavior = false;
+            this.listViewTypeOfWork.View = System.Windows.Forms.View.Details;
             // 
             // columnHeaderPermentPerDay
             // 
             this.columnHeaderPermentPerDay.Text = "Perment Per Day";
-            this.columnHeaderPermentPerDay.Width = 240;
+            this.columnHeaderPermentPerDay.Width = 109;
             // 
             // columnDescription
             // 
             this.columnDescription.Text = "Description";
-            this.columnDescription.Width = 239;
+            this.columnDescription.Width = 309;
+            // 
+            // columntypeofworkId
+            // 
+            this.columntypeofworkId.Text = "ID";
             // 
             // MainMenu
             // 
@@ -308,9 +321,10 @@
         private System.Windows.Forms.ListView listViewJob;
         private System.Windows.Forms.ColumnHeader columnEmployee;
         private System.Windows.Forms.ColumnHeader columnTypeOfWork;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView listViewTypeOfWork;
         private System.Windows.Forms.ColumnHeader columnHeaderPermentPerDay;
         private System.Windows.Forms.ColumnHeader columnDescription;
+        private System.Windows.Forms.ColumnHeader columntypeofworkId;
     }
 }
 

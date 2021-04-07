@@ -63,6 +63,7 @@
             this.buttonSaveJob.TabIndex = 13;
             this.buttonSaveJob.Text = "Сохранить";
             this.buttonSaveJob.UseVisualStyleBackColor = true;
+            this.buttonSaveJob.Click += new System.EventHandler(this.buttonSaveJob_Click);
             // 
             // comboBoxEmployee
             // 

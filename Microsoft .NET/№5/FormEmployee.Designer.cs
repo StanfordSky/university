@@ -118,6 +118,11 @@
             // 
             this.numericUpDownSalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.numericUpDownSalary.Location = new System.Drawing.Point(122, 168);
+            this.numericUpDownSalary.Maximum = new decimal(new int[] {
+            10000000,
+            0,
+            0,
+            0});
             this.numericUpDownSalary.Name = "numericUpDownSalary";
             this.numericUpDownSalary.Size = new System.Drawing.Size(183, 26);
             this.numericUpDownSalary.TabIndex = 17;

@@ -45,6 +45,7 @@
             this.buttonSaveTypeOfWork.TabIndex = 0;
             this.buttonSaveTypeOfWork.Text = "Сохранить";
             this.buttonSaveTypeOfWork.UseVisualStyleBackColor = true;
+            this.buttonSaveTypeOfWork.Click += new System.EventHandler(this.buttonSaveTypeOfWork_Click);
             // 
             // label1
             // 

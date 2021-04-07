@@ -53,18 +53,18 @@
             this.tabPageClients = new System.Windows.Forms.TabPage();
             this.listViewClients = new System.Windows.Forms.ListView();
             this.columnHeaderFIO = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPageCars = new System.Windows.Forms.TabPage();
             this.listViewCars = new System.Windows.Forms.ListView();
             this.columnHeaderNumber = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabPageRentedCars = new System.Windows.Forms.TabPage();
-            this.saveFileDialogMain = new System.Windows.Forms.SaveFileDialog();
-            this.openFileDialogMain = new System.Windows.Forms.OpenFileDialog();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tabPageRentedCars = new System.Windows.Forms.TabPage();
+            this.saveFileDialogMain = new System.Windows.Forms.SaveFileDialog();
+            this.openFileDialogMain = new System.Windows.Forms.OpenFileDialog();
             this.menuStrip1.SuspendLayout();
             this.tabControlMain.SuspendLayout();
             this.tabPageClients.SuspendLayout();
@@ -285,6 +285,16 @@
             this.columnHeaderFIO.Text = "ФИО клиента";
             this.columnHeaderFIO.Width = 97;
             // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Адрес";
+            this.columnHeader1.Width = 149;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Номер телефона";
+            this.columnHeader2.Width = 234;
+            // 
             // tabPageCars
             // 
             this.tabPageCars.Controls.Add(this.listViewCars);
@@ -321,29 +331,6 @@
             this.columnHeaderNumber.Text = "Номер";
             this.columnHeaderNumber.Width = 460;
             // 
-            // tabPageRentedCars
-            // 
-            this.tabPageRentedCars.Location = new System.Drawing.Point(4, 22);
-            this.tabPageRentedCars.Name = "tabPageRentedCars";
-            this.tabPageRentedCars.Size = new System.Drawing.Size(535, 277);
-            this.tabPageRentedCars.TabIndex = 2;
-            this.tabPageRentedCars.Text = "Прокат";
-            this.tabPageRentedCars.UseVisualStyleBackColor = true;
-            // 
-            // openFileDialogMain
-            // 
-            this.openFileDialogMain.FileName = "hotel";
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Адрес";
-            this.columnHeader1.Width = 149;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Номер телефона";
-            this.columnHeader2.Width = 234;
-            // 
             // columnHeader3
             // 
             this.columnHeader3.Text = "Марка";
@@ -363,6 +350,19 @@
             // 
             this.columnHeader6.Text = "Тип";
             this.columnHeader6.Width = 107;
+            // 
+            // tabPageRentedCars
+            // 
+            this.tabPageRentedCars.Location = new System.Drawing.Point(4, 22);
+            this.tabPageRentedCars.Name = "tabPageRentedCars";
+            this.tabPageRentedCars.Size = new System.Drawing.Size(535, 277);
+            this.tabPageRentedCars.TabIndex = 2;
+            this.tabPageRentedCars.Text = "Прокат";
+            this.tabPageRentedCars.UseVisualStyleBackColor = true;
+            // 
+            // openFileDialogMain
+            // 
+            this.openFileDialogMain.FileName = "hotel";
             // 
             // FormMain
             // 

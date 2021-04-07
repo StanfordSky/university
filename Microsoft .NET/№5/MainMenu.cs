@@ -19,22 +19,6 @@ namespace _4_2
             InitializeComponent();
         }
 
-        private void UpdateEmployeeList()
-        {
-            listViewEmployee.Items.Clear();
-            foreach (var item in Human.Employees)
-            {
-                var employee = item.Value;
-                var listViewItem = new ListViewItem
-                {
-                    Text = employee.EmployeeId.ToString()
-                };
-
-                listViewEmployee.Items.Add(listViewItem);
-                
-            }
-        }
-
         private void addToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var employee = new Employee();
@@ -48,32 +32,107 @@ namespace _4_2
 
         private void editToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //FormEmployee dialog_employee = new FormEmployee();
-            //dialog_employee.Show();
+            var employee = listViewEmployee.SelectedItems[0].Tag as Employee;
+            FormEmployee formClient = new FormEmployee(employee);
+            if (formClient.ShowDialog() == DialogResult.OK)
+            {
+                UpdateEmployeeList();
+            }
         }
 
         private void addToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            FormTypeOfWork dialog_typeofwork = new FormTypeOfWork();
-            dialog_typeofwork.Show();
+            var typeOfWork = new TypeOfWork();
+            FormTypeOfWork formClient = new FormTypeOfWork(typeOfWork);
+            if (formClient.ShowDialog() == DialogResult.OK)
+            {
+                Human.TypeOfWorks.Add(typeOfWork.TypeOfWorkId, formClient.typeOfWork);
+                UpdateTypeOfWorkList();
+            }
         }
 
         private void editToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            FormTypeOfWork dialog_typeofwork = new FormTypeOfWork();
-            dialog_typeofwork.Show();
+            var typeOfWork = listViewTypeOfWork.SelectedItems[0].Tag as TypeOfWork;
+            FormTypeOfWork formClient = new FormTypeOfWork(typeOfWork);
+            if (formClient.ShowDialog() == DialogResult.OK)
+            {
+                UpdateTypeOfWorkList();
+            }
+        }
+
+
+        private void addToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            var job = new Job();
+            FormJob formClient = new FormJob(job);
+            if (formClient.ShowDialog() == DialogResult.OK)
+            {
+                Human.Jobs.Add(formClient.job);
+                UpdateJobList();
+            }
         }
 
         private void editToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            FormJob dialog_job = new FormJob();
-            dialog_job.Show();
+            var job = listViewJob.SelectedItems[0].Tag as Job;
+            FormJob formClient = new FormJob(job);
+            if (formClient.ShowDialog() == DialogResult.OK)
+            {
+                UpdateJobList();
+            }
         }
 
-        private void addToolStripMenuItem_Click_1(object sender, EventArgs e)
+        private void UpdateEmployeeList()
         {
-            FormJob dialog_job = new FormJob();
-            dialog_job.Show();
+            listViewEmployee.Items.Clear();
+            foreach (var employee in Human.Employees.Values)
+            {
+                var listViewItem = new ListViewItem
+                {
+                    Tag = employee,
+                    Text = employee.EmployeeId.ToString()
+                };
+
+                listViewItem.SubItems.Add(employee.ToString());
+                listViewItem.SubItems.Add(employee.Salary.ToString());
+                listViewEmployee.Items.Add(listViewItem);
+
+            }
+        }
+
+        private void UpdateTypeOfWorkList()
+        {
+            listViewTypeOfWork.Items.Clear();
+            foreach (var typeOfWork in Human.TypeOfWorks.Values)
+            {
+                var listViewItem = new ListViewItem
+                {
+                    Tag = typeOfWork,
+                    Text = typeOfWork.TypeOfWorkId.ToString()
+                };
+
+                listViewItem.SubItems.Add(typeOfWork.ToString());
+                listViewItem.SubItems.Add(typeOfWork.Description.ToString());
+                listViewTypeOfWork.Items.Add(listViewItem);
+
+            }
+        }
+
+        private void UpdateJobList()
+        {
+            listViewJob.Items.Clear();
+            foreach (var job in Human.Jobs)
+            {
+                var listViewItem = new ListViewItem
+                {
+                    Tag = job,
+                    Text = job.Worker.ToString()
+                };
+
+                listViewItem.SubItems.Add(job.Position.Description.ToString());
+                listViewJob.Items.Add(listViewItem);
+            }
         }
     }
 }

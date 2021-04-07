@@ -7,9 +7,27 @@
         // ---- Properties --- ///
 
         /// <summary>
+        /// Уникальный идентификатор нового типа работы
+        /// </summary>
+        private static int _newTypeOfWorkId = 0;
+        private static int NewTypeOfWorkId
+        {
+            get
+            {
+                _newTypeOfWorkId++;
+                return _newTypeOfWorkId;
+            }
+        }
+
+        /// <summary>
+        /// Уникальный идентификатор сотрудника
+        /// </summary>
+        public int TypeOfWorkId { get; set; }
+
+        /// <summary>
         ///     Payment per Day of worker
         /// </summary>
-        public int PaymentPerDay { get; set; } = -1;
+        public int PaymentPerDay { get; set; } = 1;
 
         /// <summary>
         ///     Description position of worker
@@ -34,6 +52,7 @@
         /// </summary>
         public TypeOfWork()
         {
+            TypeOfWorkId = NewTypeOfWorkId;
         }
 
         /// <summary>
@@ -47,7 +66,7 @@
 
         public override string ToString()
         {
-            return "Payment per Day = " + PaymentPerDay + ".\r\n Description: " + Description + ".\r\n";
+            return $"{PaymentPerDay}";
         }
     }
 

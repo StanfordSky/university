@@ -18,10 +18,11 @@ namespace ClassLibraryWork
         /// <summary>
         /// Словарь работ
         /// </summary>
-        public static Dictionary<int, Job> Jobs{ get; } = new Dictionary<int, Job>();
+        public static Dictionary<int, TypeOfWork> TypeOfWorks { get; } = new Dictionary<int, TypeOfWork>();
         /// <summary>
-        /// Спосок видов работ
+        /// Список видов работ
         /// </summary>
-        public static List<TypeOfWork> TypeOfWorks { get; } = new List<TypeOfWork>();
+        public static List<Job> Jobs { get; } = new List<Job>();
+
     }
 }

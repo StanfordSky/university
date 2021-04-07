@@ -19,8 +19,12 @@ namespace _4_2
 
         public FormEmployee(Employee employee)
         {
-            this.employee = employee;
             InitializeComponent();
+            this.employee = employee;
+            textBoxFirstName.Text = employee.FirstName;
+            textBoxLastName.Text = employee.LastName;
+            textBoxPatronymic.Text = employee.Patronymic;
+            numericUpDownSalary.Value = (decimal)employee.Salary;
         }
 
         private void Employee_FormClosed(object sender, FormClosedEventArgs e)
@@ -33,7 +37,7 @@ namespace _4_2
             this.employee.FirstName = textBoxFirstName.Text;
             this.employee.LastName = textBoxLastName.Text;
             this.employee.Patronymic = textBoxPatronymic.Text;
-            this.employee.Salary = Convert.ToDouble(numericUpDownSalary.Value);
+            this.employee.Salary = (double)numericUpDownSalary.Value;
 
             this.DialogResult = DialogResult.OK;
         }
