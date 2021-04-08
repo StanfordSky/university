@@ -50,9 +50,9 @@
             this.columnTypeOfWork = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPageTypeOfWork = new System.Windows.Forms.TabPage();
             this.listViewTypeOfWork = new System.Windows.Forms.ListView();
+            this.columntypeofworkId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeaderPermentPerDay = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnDescription = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columntypeofworkId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.menuStrip1.SuspendLayout();
             this.tabControlWork.SuspendLayout();
             this.tabPageEmployee.SuspendLayout();
@@ -84,14 +84,14 @@
             // ToolStripMenuItemAdd
             // 
             this.ToolStripMenuItemAdd.Name = "ToolStripMenuItemAdd";
-            this.ToolStripMenuItemAdd.Size = new System.Drawing.Size(180, 22);
+            this.ToolStripMenuItemAdd.Size = new System.Drawing.Size(96, 22);
             this.ToolStripMenuItemAdd.Text = "Add";
             this.ToolStripMenuItemAdd.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.editToolStripMenuItem.Text = "Edit";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
@@ -130,14 +130,14 @@
             // addToolStripMenuItem1
             // 
             this.addToolStripMenuItem1.Name = "addToolStripMenuItem1";
-            this.addToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.addToolStripMenuItem1.Size = new System.Drawing.Size(96, 22);
             this.addToolStripMenuItem1.Text = "Add";
             this.addToolStripMenuItem1.Click += new System.EventHandler(this.addToolStripMenuItem1_Click);
             // 
             // editToolStripMenuItem1
             // 
             this.editToolStripMenuItem1.Name = "editToolStripMenuItem1";
-            this.editToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.editToolStripMenuItem1.Size = new System.Drawing.Size(96, 22);
             this.editToolStripMenuItem1.Text = "Edit";
             this.editToolStripMenuItem1.Click += new System.EventHandler(this.editToolStripMenuItem1_Click);
             // 
@@ -227,12 +227,12 @@
             // columnEmployee
             // 
             this.columnEmployee.Text = "Employee";
-            this.columnEmployee.Width = 245;
+            this.columnEmployee.Width = 140;
             // 
             // columnTypeOfWork
             // 
             this.columnTypeOfWork.Text = "Type Of Work";
-            this.columnTypeOfWork.Width = 236;
+            this.columnTypeOfWork.Width = 169;
             // 
             // tabPageTypeOfWork
             // 
@@ -263,6 +263,10 @@
             this.listViewTypeOfWork.UseCompatibleStateImageBehavior = false;
             this.listViewTypeOfWork.View = System.Windows.Forms.View.Details;
             // 
+            // columntypeofworkId
+            // 
+            this.columntypeofworkId.Text = "ID";
+            // 
             // columnHeaderPermentPerDay
             // 
             this.columnHeaderPermentPerDay.Text = "Perment Per Day";
@@ -273,19 +277,18 @@
             this.columnDescription.Text = "Description";
             this.columnDescription.Width = 309;
             // 
-            // columntypeofworkId
-            // 
-            this.columntypeofworkId.Text = "ID";
-            // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(521, 338);
             this.Controls.Add(this.tabControlWork);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "MainMenu";
+            this.ShowIcon = false;
             this.Text = "Main Menu";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

@@ -22,22 +22,24 @@ namespace _4_2
 
             foreach(var employee in Human.Employees.Values)
             {
-                comboBoxEmployee.Items.Add(employee.ToString());
+                comboBoxEmployee.Items.Add(employee);
             }
 
             foreach (var typeOfWork in Human.TypeOfWorks.Values)
             {
-                comboBoxTypeOfWork.Items.Add(typeOfWork.Description.ToString());
+                comboBoxTypeOfWork.Items.Add(typeOfWork);
             }
+
 
         }
 
         private void buttonSaveJob_Click(object sender, EventArgs e)
         {
-            job.Worker = comboBoxEmployee.SelectedItem as Employee;
-            job.Position = comboBoxTypeOfWork.SelectedItem as TypeOfWork;
+            job.Worker = Human.Employees[Convert.ToInt32(comboBoxEmployee.Text)];
+            job.Position = Human.TypeOfWorks[Convert.ToInt32(comboBoxTypeOfWork.Text)];
 
             this.DialogResult = DialogResult.OK;
         }
+
     }
 }

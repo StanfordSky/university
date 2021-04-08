@@ -75,7 +75,7 @@ namespace _4_2
 
         private void editToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            var job = listViewJob.SelectedItems[0].Tag as Job;
+            var job = new Job();
             FormJob formClient = new FormJob(job);
             if (formClient.ShowDialog() == DialogResult.OK)
             {
@@ -126,7 +126,6 @@ namespace _4_2
             {
                 var listViewItem = new ListViewItem
                 {
-                    Tag = job,
                     Text = job.Worker.ToString()
                 };
 

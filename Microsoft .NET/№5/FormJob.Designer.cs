@@ -41,9 +41,9 @@
             this.labelEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelEmployee.Location = new System.Drawing.Point(12, 25);
             this.labelEmployee.Name = "labelEmployee";
-            this.labelEmployee.Size = new System.Drawing.Size(91, 20);
+            this.labelEmployee.Size = new System.Drawing.Size(109, 20);
             this.labelEmployee.TabIndex = 11;
-            this.labelEmployee.Text = "Сотрудник";
+            this.labelEmployee.Text = "ID сотрудник";
             // 
             // labelTypeOfWork
             // 
@@ -51,9 +51,9 @@
             this.labelTypeOfWork.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelTypeOfWork.Location = new System.Drawing.Point(12, 59);
             this.labelTypeOfWork.Name = "labelTypeOfWork";
-            this.labelTypeOfWork.Size = new System.Drawing.Size(100, 20);
+            this.labelTypeOfWork.Size = new System.Drawing.Size(130, 20);
             this.labelTypeOfWork.TabIndex = 12;
-            this.labelTypeOfWork.Text = "Вид работы";
+            this.labelTypeOfWork.Text = "ID Вида работы";
             // 
             // buttonSaveJob
             // 
@@ -69,18 +69,18 @@
             // 
             this.comboBoxEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBoxEmployee.FormattingEnabled = true;
-            this.comboBoxEmployee.Location = new System.Drawing.Point(126, 22);
+            this.comboBoxEmployee.Location = new System.Drawing.Point(148, 22);
             this.comboBoxEmployee.Name = "comboBoxEmployee";
-            this.comboBoxEmployee.Size = new System.Drawing.Size(245, 28);
+            this.comboBoxEmployee.Size = new System.Drawing.Size(214, 28);
             this.comboBoxEmployee.TabIndex = 14;
             // 
             // comboBoxTypeOfWork
             // 
             this.comboBoxTypeOfWork.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBoxTypeOfWork.FormattingEnabled = true;
-            this.comboBoxTypeOfWork.Location = new System.Drawing.Point(126, 56);
+            this.comboBoxTypeOfWork.Location = new System.Drawing.Point(148, 56);
             this.comboBoxTypeOfWork.Name = "comboBoxTypeOfWork";
-            this.comboBoxTypeOfWork.Size = new System.Drawing.Size(245, 28);
+            this.comboBoxTypeOfWork.Size = new System.Drawing.Size(214, 28);
             this.comboBoxTypeOfWork.TabIndex = 15;
             // 
             // FormJob
