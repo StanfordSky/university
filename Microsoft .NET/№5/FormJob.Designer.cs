@@ -41,9 +41,9 @@
             this.labelEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelEmployee.Location = new System.Drawing.Point(12, 25);
             this.labelEmployee.Name = "labelEmployee";
-            this.labelEmployee.Size = new System.Drawing.Size(109, 20);
+            this.labelEmployee.Size = new System.Drawing.Size(91, 20);
             this.labelEmployee.TabIndex = 11;
-            this.labelEmployee.Text = "ID сотрудник";
+            this.labelEmployee.Text = "Cотрудник";
             // 
             // labelTypeOfWork
             // 
@@ -51,9 +51,9 @@
             this.labelTypeOfWork.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelTypeOfWork.Location = new System.Drawing.Point(12, 59);
             this.labelTypeOfWork.Name = "labelTypeOfWork";
-            this.labelTypeOfWork.Size = new System.Drawing.Size(130, 20);
+            this.labelTypeOfWork.Size = new System.Drawing.Size(100, 20);
             this.labelTypeOfWork.TabIndex = 12;
-            this.labelTypeOfWork.Text = "ID Вида работы";
+            this.labelTypeOfWork.Text = "Вид работы";
             // 
             // buttonSaveJob
             // 

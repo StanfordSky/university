@@ -30,14 +30,15 @@ namespace _4_2
                 comboBoxTypeOfWork.Items.Add(typeOfWork);
             }
 
+            comboBoxEmployee.SelectedItem = job.Worker;
+            comboBoxTypeOfWork.SelectedItem = job.Position;
 
         }
 
         private void buttonSaveJob_Click(object sender, EventArgs e)
         {
-            job.Worker = Human.Employees[Convert.ToInt32(comboBoxEmployee.Text)];
-            job.Position = Human.TypeOfWorks[Convert.ToInt32(comboBoxTypeOfWork.Text)];
-
+            job.Worker = comboBoxEmployee.SelectedItem as Employee;
+            job.Position = comboBoxTypeOfWork.SelectedItem as TypeOfWork;
             this.DialogResult = DialogResult.OK;
         }
 
