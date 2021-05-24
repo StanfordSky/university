@@ -1,9 +1,0 @@
-C:\Users\Egor\source\repos\Lab04\ClassLibraryBjuro\bin\Debug\netstandard2.0\ClassLibraryBjuro.deps.json
-C:\Users\Egor\source\repos\Lab04\ClassLibraryBjuro\bin\Debug\netstandard2.0\ClassLibraryBjuro.dll
-C:\Users\Egor\source\repos\Lab04\ClassLibraryBjuro\bin\Debug\netstandard2.0\ClassLibraryBjuro.pdb
-C:\Users\Egor\source\repos\Lab04\ClassLibraryBjuro\obj\Debug\netstandard2.0\ClassLibraryBjuro.AssemblyInfoInputs.cache
-C:\Users\Egor\source\repos\Lab04\ClassLibraryBjuro\obj\Debug\netstandard2.0\ClassLibraryBjuro.AssemblyInfo.cs
-C:\Users\Egor\source\repos\Lab04\ClassLibraryBjuro\obj\Debug\netstandard2.0\ClassLibraryBjuro.dll
-C:\Users\Egor\source\repos\Lab04\ClassLibraryBjuro\obj\Debug\netstandard2.0\ClassLibraryBjuro.pdb
-C:\Users\Egor\source\repos\Lab04\ClassLibraryBjuro\obj\Debug\netstandard2.0\ClassLibraryBjuro.csprojAssemblyReference.cache
-C:\Users\Egor\source\repos\Lab04\ClassLibraryBjuro\obj\Debug\netstandard2.0\ClassLibraryBjuro.csproj.CoreCompileInputs.cache
