@@ -44,6 +44,9 @@
   <ItemGroup>
     <Compile Include="Employee.cs" />
     <Compile Include="Human.cs" />
+    <Compile Include="InvalidTypeOfWorkException.cs" />
+    <Compile Include="InvalidJobException.cs" />
+    <Compile Include="InvalidEmployeeException.cs" />
     <Compile Include="IValidatable.cs" />
     <Compile Include="Job.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

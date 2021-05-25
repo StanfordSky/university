@@ -1,0 +1,32 @@
+C:\Users\User\Desktop\University\Microsoft .NET\№5\obj\Debug\№5.csprojAssemblyReference.cache
+C:\Users\User\Desktop\University\Microsoft .NET\№5\obj\Debug\_4_2.FormEmployee.resources
+C:\Users\User\Desktop\University\Microsoft .NET\№5\obj\Debug\_4_2.MainMenu.resources
+C:\Users\User\Desktop\University\Microsoft .NET\№5\obj\Debug\_4_2.Properties.Resources.resources
+C:\Users\User\Desktop\University\Microsoft .NET\№5\obj\Debug\_4_2.FormTypeOfWork.resources
+C:\Users\User\Desktop\University\Microsoft .NET\№5\obj\Debug\№5.csproj.GenerateResource.cache
+C:\Users\User\Desktop\University\Microsoft .NET\№5\obj\Debug\№5.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\University\Microsoft .NET\№5\obj\Debug\№4-2.exe
+C:\Users\User\Desktop\University\Microsoft .NET\№5\obj\Debug\№4-2.pdb
+C:\Users\User\Desktop\University\Microsoft .NET\№5\bin\Debug\№4-2.exe.config
+C:\Users\User\Desktop\University\Microsoft .NET\№5\bin\Debug\№4-2.exe
+C:\Users\User\Desktop\University\Microsoft .NET\№5\bin\Debug\№4-2.pdb
+C:\Users\User\Desktop\University\Microsoft .NET\№5\bin\Debug\ClassLibraryWork.dll
+C:\Users\User\Desktop\University\Microsoft .NET\№5\bin\Debug\ClassLibraryWork.pdb
+C:\Users\User\Desktop\University\Microsoft .NET\№5\obj\Debug\№5.csproj.CopyComplete
+C:\Users\User\Desktop\University\Microsoft .NET\№5\obj\Debug\_4_2.FormJob.resources
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\bin\Debug\№4-2.exe.config
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\bin\Debug\№4-2.exe
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\bin\Debug\№4-2.pdb
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\bin\Debug\ClassLibraryWork.dll
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\bin\Debug\ClassLibraryWork.pdb
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\obj\Debug\№5.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\obj\Debug\_4_2.FormEmployee.resources
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\obj\Debug\_4_2.FormJob.resources
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\obj\Debug\_4_2.MainMenu.resources
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\obj\Debug\_4_2.Properties.Resources.resources
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\obj\Debug\_4_2.FormTypeOfWork.resources
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\obj\Debug\№5.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\obj\Debug\№5.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\obj\Debug\№5.csproj.CopyComplete
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\obj\Debug\№4-2.exe
+C:\Users\User\Desktop\Новая папка\university\Microsoft .NET\№5\obj\Debug\№4-2.pdb

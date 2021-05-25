@@ -3,3 +3,9 @@ C:\Users\User\Desktop\University\Microsoft .NET\ClassLibraryJob\bin\Debug\ClassL
 C:\Users\User\Desktop\University\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryJob.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\University\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryWork.dll
 C:\Users\User\Desktop\University\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryWork.pdb
+C:\Users\User\Desktop\git\university\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryJob.csprojAssemblyReference.cache
+C:\Users\User\Desktop\git\university\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryJob.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\git\university\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryWork.dll
+C:\Users\User\Desktop\git\university\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryWork.pdb
+C:\Users\User\Desktop\git\university\Microsoft .NET\ClassLibraryJob\bin\Debug\ClassLibraryWork.dll
+C:\Users\User\Desktop\git\university\Microsoft .NET\ClassLibraryJob\bin\Debug\ClassLibraryWork.pdb
