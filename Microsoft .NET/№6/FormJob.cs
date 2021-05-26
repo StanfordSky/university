@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using ClassLibraryWork;
 
@@ -13,7 +6,7 @@ namespace _4_2
 {
     public partial class FormJob : Form
     {
-            private Job _job;
+        private Job _job;
         public Job Job
         {
             get { return _job; }
@@ -30,15 +23,16 @@ namespace _4_2
         public FormJob()
         {
             InitializeComponent();
-            _human.EmployeeAdded += _human_EmployeeAdded;
-            _human.EmployeeRemoved += _human_EmployeeRemoved;
-            _human.TypeOfWorkAdded += _human_TypeOfWorkAdded;
+            _human.EmployeeAdded     += _human_EmployeeAdded;
+            _human.EmployeeRemoved   += _human_EmployeeRemoved;
+            _human.TypeOfWorkAdded   += _human_TypeOfWorkAdded;
             _human.TypeOfWorkRemoved += _human_TypeOfWorkRemoved; 
             
             foreach (var employee in _human.Employees)
             {
                 comboBoxEmployee.Items.Add(employee);
             }
+
             foreach (var typeOfWork in _human.TypeOfWorks)
             {
                 comboBoxTypeOfWork.Items.Add(typeOfWork);
@@ -87,7 +81,7 @@ namespace _4_2
 
         private void buttonSaveJob_Click(object sender, EventArgs e)
         {
-            _job.Worker = comboBoxEmployee.SelectedItem as Employee;
+            _job.Worker   = comboBoxEmployee.SelectedItem as Employee;
             _job.Position = comboBoxTypeOfWork.SelectedItem as TypeOfWork;
             this.DialogResult = DialogResult.OK;
         }

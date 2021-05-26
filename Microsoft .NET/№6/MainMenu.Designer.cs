@@ -182,6 +182,7 @@
             this.listViewEmployee.TabIndex = 0;
             this.listViewEmployee.UseCompatibleStateImageBehavior = false;
             this.listViewEmployee.View = System.Windows.Forms.View.Details;
+            this.listViewEmployee.KeyUp += new System.Windows.Forms.KeyEventHandler(this.listViewEmployee_KeyUp);
             // 
             // columnId
             // 
@@ -223,6 +224,7 @@
             this.listViewJob.TabIndex = 2;
             this.listViewJob.UseCompatibleStateImageBehavior = false;
             this.listViewJob.View = System.Windows.Forms.View.Details;
+            this.listViewJob.KeyUp += new System.Windows.Forms.KeyEventHandler(this.listViewJob_KeyUp);
             // 
             // columnEmployee
             // 
@@ -262,6 +264,7 @@
             this.listViewTypeOfWork.TabIndex = 3;
             this.listViewTypeOfWork.UseCompatibleStateImageBehavior = false;
             this.listViewTypeOfWork.View = System.Windows.Forms.View.Details;
+            this.listViewTypeOfWork.KeyUp += new System.Windows.Forms.KeyEventHandler(this.listViewTypeOfWork_KeyUp);
             // 
             // columntypeofworkId
             // 

@@ -47,8 +47,8 @@ namespace ClassLibraryWork
         {
             get
             {
-                if (StartDate == DateTime.MinValue) return false;
-                if (EndDate == DateTime.MinValue) return false;
+                //if (StartDate == DateTime.MinValue) return false;
+                //if (EndDate == DateTime.MinValue) return false;
                 return true;
             }
         }
