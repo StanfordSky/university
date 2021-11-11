@@ -1,0 +1,12 @@
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-2\bin\Debug\№4-2.exe.config
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-2\bin\Debug\№4-2.exe
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-2\bin\Debug\№4-2.pdb
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-2\obj\Debug\№4-2.csprojAssemblyReference.cache
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-2\obj\Debug\_4_2.Properties.Resources.resources
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-2\obj\Debug\№4-2.csproj.GenerateResource.cache
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-2\obj\Debug\№4-2.csproj.CoreCompileInputs.cache
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-2\obj\Debug\№4-2.exe
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-2\obj\Debug\№4-2.pdb
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-2\obj\Debug\_4_2.MainMenu.resources
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-2\obj\Debug\_4_2.FormEmployee.resources
+C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-2\obj\Debug\_4_2.FormTypeOfWork.resources

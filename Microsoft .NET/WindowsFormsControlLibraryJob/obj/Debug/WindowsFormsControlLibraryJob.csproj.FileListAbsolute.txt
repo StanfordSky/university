@@ -1,0 +1,11 @@
+D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\obj\Debug\WindowsFormsControlLibraryJob.csproj.AssemblyReference.cache
+D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\obj\Debug\WindowsFormsControlLibraryJob.UserControlJob.resources
+D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\obj\Debug\WindowsFormsControlLibraryJob.csproj.GenerateResource.cache
+D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\obj\Debug\WindowsFormsControlLibraryJob.csproj.CoreCompileInputs.cache
+D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\bin\Debug\WindowsFormsControlLibraryJob.dll
+D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\bin\Debug\WindowsFormsControlLibraryJob.pdb
+D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\bin\Debug\ClassLibraryWork.dll
+D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\bin\Debug\ClassLibraryWork.pdb
+D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\obj\Debug\WindowsFormsControlLibraryJob.csproj.CopyComplete
+D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\obj\Debug\WindowsFormsControlLibraryJob.dll
+D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\obj\Debug\WindowsFormsControlLibraryJob.pdb
