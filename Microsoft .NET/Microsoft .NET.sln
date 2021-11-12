@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "№7", "№7\№7.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsControlLibraryJob", "WindowsFormsControlLibraryJob\WindowsFormsControlLibraryJob.csproj", "{3575AD5C-7E82-4964-A064-CB7D6D0E403B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "№8", "№8\№8.csproj", "{A72946A8-3F94-43B5-B63B-59878DB35D21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "textEditor", "textEditor\textEditor.csproj", "{F60A0F76-7C35-4EB9-A44C-2AF9CB4ED906}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{3575AD5C-7E82-4964-A064-CB7D6D0E403B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3575AD5C-7E82-4964-A064-CB7D6D0E403B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3575AD5C-7E82-4964-A064-CB7D6D0E403B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A72946A8-3F94-43B5-B63B-59878DB35D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A72946A8-3F94-43B5-B63B-59878DB35D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A72946A8-3F94-43B5-B63B-59878DB35D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A72946A8-3F94-43B5-B63B-59878DB35D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60A0F76-7C35-4EB9-A44C-2AF9CB4ED906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60A0F76-7C35-4EB9-A44C-2AF9CB4ED906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60A0F76-7C35-4EB9-A44C-2AF9CB4ED906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60A0F76-7C35-4EB9-A44C-2AF9CB4ED906}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

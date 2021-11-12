@@ -1,7 +1,10 @@
-﻿namespace ClassLibraryWork
+﻿using System;
+
+namespace ClassLibraryWork
 {
 
     // ------ Class - Type of Work ------ //
+    [Serializable]
     public class TypeOfWork : IValidatable
     {
         // ---- Properties --- ///

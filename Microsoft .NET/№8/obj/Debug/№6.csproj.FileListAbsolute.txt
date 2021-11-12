@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\bin\Debug\№4-2.exe.config
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\bin\Debug\№4-2.exe
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\bin\Debug\№4-2.pdb
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\bin\Debug\ClassLibraryWork.dll
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\bin\Debug\ClassLibraryWork.pdb
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\obj\Debug\№6.csprojAssemblyReference.cache
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\obj\Debug\_4_2.FormEmployee.resources
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\obj\Debug\_4_2.FormJob.resources
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\obj\Debug\_4_2.MainMenu.resources
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\obj\Debug\_4_2.Properties.Resources.resources
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\obj\Debug\_4_2.FormTypeOfWork.resources
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\obj\Debug\№6.csproj.GenerateResource.cache
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\obj\Debug\№6.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\obj\Debug\№6.csproj.CopyComplete
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\obj\Debug\№4-2.exe
+C:\Users\User\Desktop\git\university\Microsoft .NET\№6\obj\Debug\№4-2.pdb

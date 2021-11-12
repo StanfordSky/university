@@ -9,3 +9,5 @@ D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\bin\Debug\
 D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\obj\Debug\WindowsFormsControlLibraryJob.csproj.CopyComplete
 D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\obj\Debug\WindowsFormsControlLibraryJob.dll
 D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\obj\Debug\WindowsFormsControlLibraryJob.pdb
+D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\bin\Debug\Newtonsoft.Json.dll
+D:\university\university\Microsoft .NET\WindowsFormsControlLibraryJob\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,11 @@
+D:\university\university\Microsoft .NET\textEditor\bin\Debug\lab8.exe.config
+D:\university\university\Microsoft .NET\textEditor\bin\Debug\lab8.exe
+D:\university\university\Microsoft .NET\textEditor\bin\Debug\lab8.pdb
+D:\university\university\Microsoft .NET\textEditor\obj\Debug\textEditor.csproj.AssemblyReference.cache
+D:\university\university\Microsoft .NET\textEditor\obj\Debug\textEditor.csproj.SuggestedBindingRedirects.cache
+D:\university\university\Microsoft .NET\textEditor\obj\Debug\FormTextEditor.resources
+D:\university\university\Microsoft .NET\textEditor\obj\Debug\lab8.Properties.Resources.resources
+D:\university\university\Microsoft .NET\textEditor\obj\Debug\textEditor.csproj.GenerateResource.cache
+D:\university\university\Microsoft .NET\textEditor\obj\Debug\textEditor.csproj.CoreCompileInputs.cache
+D:\university\university\Microsoft .NET\textEditor\obj\Debug\lab8.exe
+D:\university\university\Microsoft .NET\textEditor\obj\Debug\lab8.pdb

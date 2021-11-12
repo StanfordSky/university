@@ -3,6 +3,7 @@
 namespace ClassLibraryWork
 {
     // ------ Class - Job ------ //
+    [Serializable]
     public class Job : IValidatable
     {
         // ---- Properties --- ///

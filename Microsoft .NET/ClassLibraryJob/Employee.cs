@@ -1,10 +1,13 @@
 ﻿using System.Windows.Forms;
-
+using System.Runtime.Serialization.Formatters.Binary;
+using System;
+using System.IO;
 
 namespace ClassLibraryWork
 {
 
     // ------ Class - Employee ------ //
+    [Serializable]
     public class Employee : IValidatable
     {
         // ---- Properties --- //
@@ -13,12 +16,16 @@ namespace ClassLibraryWork
         /// Уникальный идентификатор нового сотрудника
         /// </summary>
         private static int _newEmployeeId = 0;
-        private static int NewEmployeeId
+        public static int NewEmployeeId
         {
             get
             {
                 _newEmployeeId++;
                 return _newEmployeeId;
+            }
+            set
+            {
+                _newEmployeeId = value;
             }
         }
 

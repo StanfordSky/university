@@ -1,0 +1,48 @@
+{
+  "Employees": [
+    {
+      "EmployeeId": 2,
+      "FirstName": "Лядов",
+      "LastName": "Вячеслав",
+      "Patronymic": "Сергеевич",
+      "Salary": 30000.0,
+      "IsValid": true
+    },
+    {
+      "EmployeeId": 3,
+      "FirstName": "Тестовый",
+      "LastName": "Для 8 лабораторной",
+      "Patronymic": "Работы",
+      "Salary": 300.0,
+      "IsValid": true
+    }
+  ],
+  "TypeOfWorks": [
+    {
+      "TypeOfWorkId": 1,
+      "PaymentPerDay": 100,
+      "Description": "Учиться",
+      "IsValid": true
+    },
+    {
+      "TypeOfWorkId": 2,
+      "PaymentPerDay": 100,
+      "Description": "Тестировать",
+      "IsValid": true
+    }
+  ],
+  "Job": [
+    {
+      "Employee": "Лядов Вячеслав Сергеевич",
+      "TypeOfWork": 100,
+      "StartDate": "0001-01-01T00:00:00",
+      "EndDate": "0001-01-01T00:00:00"
+    },
+    {
+      "Employee": 3,
+      "TypeOfWork": 100,
+      "StartDate": "0001-01-01T00:00:00",
+      "EndDate": "0001-01-01T00:00:00"
+    }
+  ]
+}

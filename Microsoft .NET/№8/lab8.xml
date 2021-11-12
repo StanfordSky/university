@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<JobServiceSerializable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Employees>
+    <Employee>
+      <EmployeeId>2</EmployeeId>
+      <FirstName>Лядов</FirstName>
+      <LastName>Вячеслав</LastName>
+      <Patronymic>Сергеевич</Patronymic>
+      <Salary>30000</Salary>
+    </Employee>
+    <Employee>
+      <EmployeeId>3</EmployeeId>
+      <FirstName>Тестовый</FirstName>
+      <LastName>Для 8 лабораторной</LastName>
+      <Patronymic>Работы</Patronymic>
+      <Salary>300</Salary>
+    </Employee>
+  </Employees>
+  <TypeOfWorks>
+    <TypeOfWork>
+      <TypeOfWorkId>1</TypeOfWorkId>
+      <PaymentPerDay>100</PaymentPerDay>
+      <Description>Учиться</Description>
+    </TypeOfWork>
+    <TypeOfWork>
+      <TypeOfWorkId>2</TypeOfWorkId>
+      <PaymentPerDay>100</PaymentPerDay>
+      <Description>Тестировать</Description>
+    </TypeOfWork>
+  </TypeOfWorks>
+  <Job>
+    <JobSerializable>
+      <Employee>Лядов Вячеслав Сергеевич</Employee>
+      <TypeOfWork>Учиться</TypeOfWork>
+      <Job>0001-01-01T00:00:00</Job>
+    </JobSerializable>
+    <JobSerializable>
+      <Employee>Тестовый для 8 лабораторной Работы</Employee>
+      <TypeOfWork>Тестировать</TypeOfWork>
+      <Job>Тестовый для 8 лабораторной Работы, 100, Тестировать</Job>
+    </JobSerializable>
+  </Job>
+</JobServiceSerializable>

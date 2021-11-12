@@ -10,7 +10,10 @@ C:\Users\User\Desktop\git\university\Microsoft .NET\ClassLibraryJob\bin\Debug\Cl
 C:\Users\User\Desktop\git\university\Microsoft .NET\ClassLibraryJob\bin\Debug\ClassLibraryWork.pdb
 D:\university\university\Microsoft .NET\ClassLibraryJob\bin\Debug\ClassLibraryWork.dll
 D:\university\university\Microsoft .NET\ClassLibraryJob\bin\Debug\ClassLibraryWork.pdb
-D:\university\university\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryJob.csproj.AssemblyReference.cache
 D:\university\university\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryJob.csproj.CoreCompileInputs.cache
 D:\university\university\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryWork.dll
 D:\university\university\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryWork.pdb
+D:\university\university\Microsoft .NET\ClassLibraryJob\bin\Debug\Newtonsoft.Json.dll
+D:\university\university\Microsoft .NET\ClassLibraryJob\bin\Debug\Newtonsoft.Json.xml
+D:\university\university\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryJob.csproj.CopyComplete
+D:\university\university\Microsoft .NET\ClassLibraryJob\obj\Debug\ClassLibraryJob.csproj.AssemblyReference.cache
