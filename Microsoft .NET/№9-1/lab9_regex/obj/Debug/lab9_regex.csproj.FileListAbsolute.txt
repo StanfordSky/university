@@ -1,0 +1,10 @@
+C:\dev\csharp\Lab9\lab9_regex\bin\Debug\lab9_regex.exe.config
+C:\dev\csharp\Lab9\lab9_regex\bin\Debug\lab9_regex.exe
+C:\dev\csharp\Lab9\lab9_regex\bin\Debug\lab9_regex.pdb
+C:\dev\csharp\Lab9\lab9_regex\obj\Debug\lab9_regex.csprojAssemblyReference.cache
+C:\dev\csharp\Lab9\lab9_regex\obj\Debug\lab9_regex.Properties.Resources.resources
+C:\dev\csharp\Lab9\lab9_regex\obj\Debug\lab9_regex.csproj.GenerateResource.cache
+C:\dev\csharp\Lab9\lab9_regex\obj\Debug\lab9_regex.csproj.CoreCompileInputs.cache
+C:\dev\csharp\Lab9\lab9_regex\obj\Debug\lab9_regex.exe
+C:\dev\csharp\Lab9\lab9_regex\obj\Debug\lab9_regex.pdb
+C:\dev\csharp\Lab9\lab9_regex\obj\Debug\Form1.resources
