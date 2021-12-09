@@ -31,3 +31,5 @@ D:\university\university\Microsoft .NET\№6\obj\Debug\№6.csproj.CoreCompileIn
 D:\university\university\Microsoft .NET\№6\obj\Debug\№6.csproj.CopyComplete
 D:\university\university\Microsoft .NET\№6\obj\Debug\№4-2.exe
 D:\university\university\Microsoft .NET\№6\obj\Debug\№4-2.pdb
+D:\university\university\Microsoft .NET\№6\bin\Debug\Newtonsoft.Json.dll
+D:\university\university\Microsoft .NET\№6\bin\Debug\Newtonsoft.Json.xml

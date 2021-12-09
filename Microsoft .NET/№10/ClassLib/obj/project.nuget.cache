@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0fkqsulUiWWi7Ql4nnOC/afdeXtAeNmC2IY/AjUqjV+LQM7FTxoOpwQMXj3Dhb0/VJp4E71/8yzdPFHZqeZ+GA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lyadov.DESKTOP-3LF6G09\\OneDrive\\Desktop\\Lab10\\ClassLib\\ServerClasses.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lyadov.DESKTOP-3LF6G09\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lyadov.DESKTOP-3LF6G09\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

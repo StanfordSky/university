@@ -5,3 +5,14 @@ C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№1-1\obj\Debug\№1-
 C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№1-1\obj\Debug\№1-1.csproj.CoreCompileInputs.cache
 C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№1-1\obj\Debug\№1-1.exe
 C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№1-1\obj\Debug\№1-1.pdb
+D:\university\university\Microsoft .NET\№1-1\bin\Debug\№1-1.exe.config
+D:\university\university\Microsoft .NET\№1-1\bin\Debug\№1-1.exe
+D:\university\university\Microsoft .NET\№1-1\bin\Debug\№1-1.pdb
+D:\university\university\Microsoft .NET\№1-1\bin\Debug\Newtonsoft.Json.dll
+D:\university\university\Microsoft .NET\№1-1\bin\Debug\Newtonsoft.Json.xml
+D:\university\university\Microsoft .NET\№1-1\obj\Debug\№1-1.csproj.AssemblyReference.cache
+D:\university\university\Microsoft .NET\№1-1\obj\Debug\№1-1.csproj.SuggestedBindingRedirects.cache
+D:\university\university\Microsoft .NET\№1-1\obj\Debug\№1-1.csproj.CoreCompileInputs.cache
+D:\university\university\Microsoft .NET\№1-1\obj\Debug\№1-1.csproj.CopyComplete
+D:\university\university\Microsoft .NET\№1-1\obj\Debug\№1-1.exe
+D:\university\university\Microsoft .NET\№1-1\obj\Debug\№1-1.pdb

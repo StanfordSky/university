@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EMSB0m/j7DEgZbFnGU8MOamR2Zo0JgBfdANVwIXy8IpfN+EDz9awPgPY8/ish+ICc9BFAP+UhIt7ek3qzAWEkA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lyadov.DESKTOP-3LF6G09\\OneDrive\\Desktop\\Lab10\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lyadov.DESKTOP-3LF6G09\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

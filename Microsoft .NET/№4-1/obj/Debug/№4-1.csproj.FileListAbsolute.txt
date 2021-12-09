@@ -4,3 +4,12 @@ C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-1\bin\Debug\№4-
 C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-1\bin\Debug\№4-1.pdb
 C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-1\obj\Debug\№4-1.dll
 C:\Users\lyado\OneDrive\Desktop\University\Microsoft .NET\№4-1\obj\Debug\№4-1.pdb
+D:\university\university\Microsoft .NET\№4-1\bin\Debug\№4-1.dll
+D:\university\university\Microsoft .NET\№4-1\bin\Debug\№4-1.pdb
+D:\university\university\Microsoft .NET\№4-1\bin\Debug\Newtonsoft.Json.dll
+D:\university\university\Microsoft .NET\№4-1\bin\Debug\Newtonsoft.Json.xml
+D:\university\university\Microsoft .NET\№4-1\obj\Debug\№4-1.csproj.AssemblyReference.cache
+D:\university\university\Microsoft .NET\№4-1\obj\Debug\№4-1.csproj.CoreCompileInputs.cache
+D:\university\university\Microsoft .NET\№4-1\obj\Debug\№4-1.csproj.CopyComplete
+D:\university\university\Microsoft .NET\№4-1\obj\Debug\№4-1.dll
+D:\university\university\Microsoft .NET\№4-1\obj\Debug\№4-1.pdb

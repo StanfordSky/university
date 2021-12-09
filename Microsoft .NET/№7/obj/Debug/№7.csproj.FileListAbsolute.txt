@@ -17,3 +17,5 @@ D:\university\university\Microsoft .NET\№7\obj\Debug\№4-2.exe
 D:\university\university\Microsoft .NET\№7\obj\Debug\№4-2.pdb
 D:\university\university\Microsoft .NET\№7\bin\Debug\WindowsFormsControlLibraryJob.dll
 D:\university\university\Microsoft .NET\№7\bin\Debug\WindowsFormsControlLibraryJob.pdb
+D:\university\university\Microsoft .NET\№7\bin\Debug\Newtonsoft.Json.dll
+D:\university\university\Microsoft .NET\№7\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,28 @@
+C:\dev\csharp\Lab 10\ClassLib\bin\Release\netstandard2.0\ServerClasses.deps.json
+C:\dev\csharp\Lab 10\ClassLib\bin\Release\netstandard2.0\ServerClasses.dll
+C:\dev\csharp\Lab 10\ClassLib\bin\Release\netstandard2.0\ServerClasses.pdb
+C:\dev\csharp\Lab 10\ClassLib\obj\Release\netstandard2.0\ServerClasses.csprojAssemblyReference.cache
+C:\dev\csharp\Lab 10\ClassLib\obj\Release\netstandard2.0\ServerClasses.AssemblyInfoInputs.cache
+C:\dev\csharp\Lab 10\ClassLib\obj\Release\netstandard2.0\ServerClasses.AssemblyInfo.cs
+C:\dev\csharp\Lab 10\ClassLib\obj\Release\netstandard2.0\ServerClasses.csproj.CoreCompileInputs.cache
+C:\dev\csharp\Lab 10\ClassLib\obj\Release\netstandard2.0\ServerClasses.dll
+C:\dev\csharp\Lab 10\ClassLib\obj\Release\netstandard2.0\ServerClasses.pdb
+C:\dev\csharp\Lab10\ClassLib\bin\Release\netstandard2.0\ServerClasses.deps.json
+C:\dev\csharp\Lab10\ClassLib\bin\Release\netstandard2.0\ServerClasses.dll
+C:\dev\csharp\Lab10\ClassLib\bin\Release\netstandard2.0\ServerClasses.pdb
+C:\dev\csharp\Lab10\ClassLib\obj\Release\netstandard2.0\ServerClasses.csprojAssemblyReference.cache
+C:\dev\csharp\Lab10\ClassLib\obj\Release\netstandard2.0\ServerClasses.AssemblyInfoInputs.cache
+C:\dev\csharp\Lab10\ClassLib\obj\Release\netstandard2.0\ServerClasses.AssemblyInfo.cs
+C:\dev\csharp\Lab10\ClassLib\obj\Release\netstandard2.0\ServerClasses.csproj.CoreCompileInputs.cache
+C:\dev\csharp\Lab10\ClassLib\obj\Release\netstandard2.0\ServerClasses.dll
+C:\dev\csharp\Lab10\ClassLib\obj\Release\netstandard2.0\ServerClasses.pdb
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\ClassLib\bin\Release\netstandard2.0\ServerClasses.deps.json
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\ClassLib\bin\Release\netstandard2.0\ServerClasses.dll
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\ClassLib\bin\Release\netstandard2.0\ServerClasses.pdb
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\ClassLib\obj\Release\netstandard2.0\ServerClasses.csproj.AssemblyReference.cache
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\ClassLib\obj\Release\netstandard2.0\ServerClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\ClassLib\obj\Release\netstandard2.0\ServerClasses.AssemblyInfoInputs.cache
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\ClassLib\obj\Release\netstandard2.0\ServerClasses.AssemblyInfo.cs
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\ClassLib\obj\Release\netstandard2.0\ServerClasses.csproj.CoreCompileInputs.cache
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\ClassLib\obj\Release\netstandard2.0\ServerClasses.dll
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\ClassLib\obj\Release\netstandard2.0\ServerClasses.pdb

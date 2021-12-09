@@ -1,0 +1,48 @@
+c:\dev\csharp\Lab 10\bin\Release\Lab 10.exe.config
+c:\dev\csharp\Lab 10\bin\Release\Lab 10.exe
+c:\dev\csharp\Lab 10\bin\Release\Lab 10.pdb
+c:\dev\csharp\Lab 10\bin\Release\Newtonsoft.Json.dll
+c:\dev\csharp\Lab 10\bin\Release\ServerClasses.dll
+c:\dev\csharp\Lab 10\bin\Release\ServerClasses.pdb
+c:\dev\csharp\Lab 10\bin\Release\Newtonsoft.Json.xml
+c:\dev\csharp\Lab 10\obj\Release\Client.csprojAssemblyReference.cache
+c:\dev\csharp\Lab 10\obj\Release\Form.resources
+c:\dev\csharp\Lab 10\obj\Release\Lab_10.Properties.Resources.resources
+c:\dev\csharp\Lab 10\obj\Release\Client.csproj.GenerateResource.cache
+c:\dev\csharp\Lab 10\obj\Release\Client.csproj.CoreCompileInputs.cache
+c:\dev\csharp\Lab 10\obj\Release\Client.csproj.CopyComplete
+c:\dev\csharp\Lab 10\obj\Release\Lab 10.exe
+c:\dev\csharp\Lab 10\obj\Release\Lab 10.pdb
+C:\dev\csharp\Lab10\bin\Release\Lab 10.exe.config
+C:\dev\csharp\Lab10\bin\Release\Lab 10.exe
+C:\dev\csharp\Lab10\bin\Release\Lab 10.pdb
+C:\dev\csharp\Lab10\bin\Release\Newtonsoft.Json.dll
+C:\dev\csharp\Lab10\bin\Release\ServerClasses.dll
+C:\dev\csharp\Lab10\bin\Release\ServerClasses.pdb
+C:\dev\csharp\Lab10\bin\Release\Newtonsoft.Json.xml
+C:\dev\csharp\Lab10\obj\Release\Client.csprojAssemblyReference.cache
+C:\dev\csharp\Lab10\obj\Release\CreateOrEditBook.resources
+C:\dev\csharp\Lab10\obj\Release\Form.resources
+C:\dev\csharp\Lab10\obj\Release\Lab_10.Properties.Resources.resources
+C:\dev\csharp\Lab10\obj\Release\Client.csproj.GenerateResource.cache
+C:\dev\csharp\Lab10\obj\Release\Client.csproj.CoreCompileInputs.cache
+C:\dev\csharp\Lab10\obj\Release\Client.csproj.CopyComplete
+C:\dev\csharp\Lab10\obj\Release\Lab 10.exe
+C:\dev\csharp\Lab10\obj\Release\Lab 10.pdb
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\bin\Release\Lab 10.exe.config
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\bin\Release\Lab 10.exe
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\bin\Release\Lab 10.pdb
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\bin\Release\Newtonsoft.Json.dll
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\bin\Release\ServerClasses.dll
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\bin\Release\ServerClasses.pdb
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\bin\Release\Newtonsoft.Json.xml
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\obj\Release\Client.csproj.AssemblyReference.cache
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\obj\Release\Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\obj\Release\CreateOrEditBook.resources
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\obj\Release\Form.resources
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\obj\Release\Lab_10.Properties.Resources.resources
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\obj\Release\Client.csproj.GenerateResource.cache
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\obj\Release\Client.csproj.CoreCompileInputs.cache
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\obj\Release\Client.csproj.CopyComplete
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\obj\Release\Lab 10.exe
+C:\Users\lyadov.DESKTOP-3LF6G09\OneDrive\Desktop\Lab10\obj\Release\Lab 10.pdb

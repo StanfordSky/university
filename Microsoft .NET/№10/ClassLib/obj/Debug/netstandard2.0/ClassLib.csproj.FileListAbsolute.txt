@@ -1,0 +1,9 @@
+C:\dev\csharp\Lab 10\ClassLib\bin\Debug\netstandard2.0\ClassLib.deps.json
+C:\dev\csharp\Lab 10\ClassLib\bin\Debug\netstandard2.0\ClassLib.dll
+C:\dev\csharp\Lab 10\ClassLib\bin\Debug\netstandard2.0\ClassLib.pdb
+C:\dev\csharp\Lab 10\ClassLib\obj\Debug\netstandard2.0\ClassLib.csprojAssemblyReference.cache
+C:\dev\csharp\Lab 10\ClassLib\obj\Debug\netstandard2.0\ClassLib.AssemblyInfoInputs.cache
+C:\dev\csharp\Lab 10\ClassLib\obj\Debug\netstandard2.0\ClassLib.AssemblyInfo.cs
+C:\dev\csharp\Lab 10\ClassLib\obj\Debug\netstandard2.0\ClassLib.csproj.CoreCompileInputs.cache
+C:\dev\csharp\Lab 10\ClassLib\obj\Debug\netstandard2.0\ClassLib.dll
+C:\dev\csharp\Lab 10\ClassLib\obj\Debug\netstandard2.0\ClassLib.pdb
