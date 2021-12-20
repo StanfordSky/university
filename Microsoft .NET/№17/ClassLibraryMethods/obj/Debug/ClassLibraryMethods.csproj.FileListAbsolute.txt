@@ -1,0 +1,13 @@
+C:\Users\IS\source\repos\ClassLibraryMethods\bin\Debug\ClassLibraryMethods.dll.config
+C:\Users\IS\source\repos\ClassLibraryMethods\bin\Debug\ClassLibraryMethods.dll
+C:\Users\IS\source\repos\ClassLibraryMethods\bin\Debug\ClassLibraryMethods.pdb
+C:\Users\IS\source\repos\ClassLibraryMethods\bin\Debug\ClassLibraryData.dll
+C:\Users\IS\source\repos\ClassLibraryMethods\bin\Debug\ClassLibraryData.pdb
+C:\Users\IS\source\repos\ClassLibraryMethods\bin\Debug\ClassLibraryData.dll.config
+C:\Users\IS\source\repos\ClassLibraryMethods\obj\Debug\ClassLibraryMethods.csproj.AssemblyReference.cache
+C:\Users\IS\source\repos\ClassLibraryMethods\obj\Debug\ClassLibraryMethods.csproj.CoreCompileInputs.cache
+C:\Users\IS\source\repos\ClassLibraryMethods\obj\Debug\ClassLibraryMethods.csproj.CopyComplete
+C:\Users\IS\source\repos\ClassLibraryMethods\obj\Debug\ClassLibraryMethods.dll
+C:\Users\IS\source\repos\ClassLibraryMethods\obj\Debug\ClassLibraryMethods.pdb
+C:\Users\IS\source\repos\ClassLibraryMethods\bin\Debug\dbMusInst.mdf
+C:\Users\IS\source\repos\ClassLibraryMethods\bin\Debug\dbMusInst_log.ldf

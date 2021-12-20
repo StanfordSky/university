@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbModelStoreContainer" CdmEntityContainer="dbEntities1">
+    <EntitySetMapping Name="MusicalInstruments">
+      <EntityTypeMapping TypeName="dbModel.MusicalInstrument">
+        <MappingFragment StoreEntitySet="MusicalInstrument">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="TypeOfMusInstFK" ColumnName="TypeOfMusInstFK" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeOfMusicalInstruments">
+      <EntityTypeMapping TypeName="dbModel.TypeOfMusicalInstrument">
+        <MappingFragment StoreEntitySet="TypeOfMusicalInstrument">
+          <ScalarProperty Name="TypeOfMusInstID" ColumnName="TypeOfMusInstID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

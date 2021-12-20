@@ -1,0 +1,38 @@
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\bin\Debug\DotNet_13.exe.config
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\bin\Debug\DotNet_13.exe
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\bin\Debug\DotNet_13.pdb
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\obj\Debug\DotNet_13.csproj.AssemblyReference.cache
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\obj\Debug\MainWindow.g.cs
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\obj\Debug\App.g.cs
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\obj\Debug\DotNet_13_MarkupCompile.cache
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\obj\Debug\DotNet_13_MarkupCompile.lref
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\obj\Debug\MainWindow.baml
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\obj\Debug\DotNet_13.g.resources
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\obj\Debug\DotNet_13.Properties.Resources.resources
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\obj\Debug\DotNet_13.csproj.GenerateResource.cache
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\obj\Debug\DotNet_13.csproj.CoreCompileInputs.cache
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\obj\Debug\DotNet_13.exe
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\obj\Debug\DotNet_13.pdb
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\obj\Debug\DotNet_13_Content.g.cs
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\bin\Debug\db.mdf
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\bin\Debug\db_log.ldf
+C:\Users\IS\Downloads\New folder\DotNet-11b4c13ff72377b8d7525f79688a531da67a75ea\DotNet_13\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\bin\Debug\db.mdf
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\bin\Debug\db_log.ldf
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\bin\Debug\DotNet_13.exe.config
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\bin\Debug\DotNet_13.exe
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\bin\Debug\DotNet_13.pdb
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\obj\Debug\DotNet_13.csproj.AssemblyReference.cache
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\obj\Debug\MainWindow.g.cs
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\obj\Debug\App.g.cs
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\obj\Debug\DotNet_13_Content.g.cs
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\obj\Debug\DotNet_13_MarkupCompile.cache
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\obj\Debug\DotNet_13_MarkupCompile.lref
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\obj\Debug\MainWindow.baml
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\obj\Debug\DotNet_13.g.resources
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\obj\Debug\DotNet_13.Properties.Resources.resources
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\obj\Debug\DotNet_13.csproj.GenerateResource.cache
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\obj\Debug\DotNet_13.csproj.CoreCompileInputs.cache
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\obj\Debug\DotNet_13.exe
+C:\Users\IS\Desktop\DotNet_SEMENOV_17_V\DotNet_13\obj\Debug\DotNet_13.pdb

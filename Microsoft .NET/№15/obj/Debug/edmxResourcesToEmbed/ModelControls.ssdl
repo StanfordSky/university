@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MusicalInstrument">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TypeOfMusInstFK" Type="int" Nullable="false" />
+    <Property Name="Image" Type="image" />
+    <Property Name="Description" Type="nvarchar" MaxLength="512" />
+  </EntityType>
+  <EntityType Name="TypeOfMusicalInstrument">
+    <Key>
+      <PropertyRef Name="TypeOfMusInstID" />
+    </Key>
+    <Property Name="TypeOfMusInstID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_IvanMusicalInstrument_TypeOfMusicalInstrument">
+    <End Role="TypeOfMusicalInstrument" Type="Self.TypeOfMusicalInstrument" Multiplicity="1" />
+    <End Role="MusicalInstrument" Type="Self.MusicalInstrument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeOfMusicalInstrument">
+        <PropertyRef Name="TypeOfMusInstID" />
+      </Principal>
+      <Dependent Role="MusicalInstrument">
+        <PropertyRef Name="TypeOfMusInstFK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dbModelStoreContainer">
+    <EntitySet Name="MusicalInstrument" EntityType="Self.MusicalInstrument" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TypeOfMusicalInstrument" EntityType="Self.TypeOfMusicalInstrument" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_IvanMusicalInstrument_TypeOfMusicalInstrument" Association="Self.FK_IvanMusicalInstrument_TypeOfMusicalInstrument">
+      <End Role="TypeOfMusicalInstrument" EntitySet="TypeOfMusicalInstrument" />
+      <End Role="MusicalInstrument" EntitySet="MusicalInstrument" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

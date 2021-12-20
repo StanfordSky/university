@@ -1,0 +1,9 @@
+C:\Users\IS\source\repos\ClassLibraryData\bin\Debug\ClassLibraryData.dll.config
+C:\Users\IS\source\repos\ClassLibraryData\bin\Debug\ClassLibraryData.dll
+C:\Users\IS\source\repos\ClassLibraryData\bin\Debug\ClassLibraryData.pdb
+C:\Users\IS\source\repos\ClassLibraryData\obj\Debug\ClassLibraryData.csproj.AssemblyReference.cache
+C:\Users\IS\source\repos\ClassLibraryData\obj\Debug\ClassLibraryData.csproj.CoreCompileInputs.cache
+C:\Users\IS\source\repos\ClassLibraryData\obj\Debug\ClassLibraryData.dll
+C:\Users\IS\source\repos\ClassLibraryData\obj\Debug\ClassLibraryData.pdb
+C:\Users\IS\source\repos\ClassLibraryData\bin\Debug\dbMusInst.mdf
+C:\Users\IS\source\repos\ClassLibraryData\bin\Debug\dbMusInst_log.ldf
