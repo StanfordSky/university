@@ -1,0 +1,32 @@
+{
+  "name": "lab_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StanfordSky/PI.git"
+  },
+  "author": "lyadov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StanfordSky/PI/issues"
+  },
+  "homepage": "https://github.com/StanfordSky/PI#readme",
+  "dependencies": {
+    "generate-magic-square": "^1.0.0",
+    "lodash": "^4.17.21",
+    "magic-square-generator": "^1.0.1",
+    "magic-square-solver": "^1.0.0",
+    "prettier": "^2.4.1",
+    "process": "^0.11.10",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "prompts": "^2.4.2"
+  }
+}
